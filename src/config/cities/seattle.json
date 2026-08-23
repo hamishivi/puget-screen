@@ -1,0 +1,16 @@
+{
+  "id": "seattle",
+  "name": "Seattle",
+  "region": "Washington",
+  "timezone": "America/Los_Angeles",
+  "locale": "en-US",
+  "coordinates": { "latitude": 47.6062, "longitude": -122.3321 },
+  "venues": [
+    { "id": "nwff", "name": "Northwest Film Forum", "neighborhood": "Capitol Hill", "website": "https://nwfilmforum.org/", "calendarUrl": "https://nwfilmforum.org/calendar/", "source": { "type": "manual" }, "enabled": true },
+    { "id": "beacon", "name": "The Beacon", "neighborhood": "Columbia City", "website": "https://thebeacon.film/", "calendarUrl": "https://thebeacon.film/", "source": { "type": "manual" }, "enabled": true },
+    { "id": "grand-illusion", "name": "Grand Illusion Cinema", "neighborhood": "University District", "website": "https://grandillusioncinema.org/", "calendarUrl": "https://grandillusioncinema.org/calendar/", "source": { "type": "manual" }, "enabled": true },
+    { "id": "siff-uptown", "name": "SIFF Cinema Uptown", "neighborhood": "Uptown", "website": "https://www.siff.net/cinema/cinema-venues/siff-cinema-uptown", "calendarUrl": "https://www.siff.net/cinema/in-theaters", "source": { "type": "manual" }, "enabled": true },
+    { "id": "siff-film-center", "name": "SIFF Film Center", "neighborhood": "Seattle Center", "website": "https://www.siff.net/cinema/cinema-venues/siff-film-center", "calendarUrl": "https://www.siff.net/cinema/in-theaters", "source": { "type": "manual" }, "enabled": true },
+    { "id": "siff-downtown", "name": "SIFF Cinema Downtown", "neighborhood": "Belltown", "website": "https://www.siff.net/cinema/cinema-venues/siff-cinema-downtown", "calendarUrl": "https://www.siff.net/cinema/in-theaters", "source": { "type": "manual" }, "enabled": true }
+  ]
+}
