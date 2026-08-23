@@ -4,13 +4,14 @@ import { useMemo, useState } from 'react';
 import type { Listing, SiteConfig } from '../config/types';
 
 const filters = [
-  { id: 'all', label: 'All screenings' },
-  { id: 'on-film', label: 'On film' },
+  { id: 'all', label: 'All' },
+  { id: 'on-film', label: 'On Film' },
   { id: 'experimental', label: 'Experimental' },
-  { id: 'local', label: 'Local work' },
+  { id: 'local', label: 'Local Work' },
 ];
 
 function isoDate(date: Date) { return date.toISOString().slice(0, 10); }
+
 function shiftDate(value: string, amount: number) {
   const date = new Date(`${value}T12:00:00Z`);
   date.setUTCDate(date.getUTCDate() + amount);
@@ -39,80 +40,127 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
 
   return (
     <>
-      <div className="ticker" aria-hidden="true">
-        <div className="ticker-track">{`${config.name} — ${config.ticker} — ${config.name} — ${config.ticker} — ${config.name} — ${config.ticker} — `.toUpperCase()}</div>
+      <div className="anniversary" aria-hidden="true">
+        <div className="anniversary-track">{`${config.name} · Moving images around the Sound · ${config.name} · Moving images around the Sound · ${config.name} · Moving images around the Sound · `.toUpperCase()}</div>
       </div>
-      <header className="mobile-head"><strong>{config.name}</strong><span className="eyebrow">{config.city.name}, {config.city.region}</span></header>
-      <div className="shell">
-        <aside className="left-rail">
-          <p className="wordmark">{config.name.split(' ')[0]}<span>{config.name.split(' ').slice(1).join(' ')}</span></p>
-          <p className="eyebrow" style={{ marginTop: 24 }}>{config.strapline}</p>
-          <p className="rail-copy">{config.description} Updated daily for {config.city.name}.</p>
-          <nav className="rail-nav" aria-label="Primary navigation">
-            <a href="#listings"><span>Listings</span><span>01</span></a>
-            <a href="#venues"><span>Venues</span><span>02</span></a>
-            <a href="mailto:hello@ivison.id.au?subject=Puget%20Screen%20listing"><span>Submit</span><span>↗</span></a>
+
+      <header className="mobile-head">
+        <strong>{config.name}</strong>
+        <span>{config.city.name}</span>
+      </header>
+
+      <div className="site-frame">
+        <aside className="left-column">
+          <a className="identity" href="#listings" aria-label={`${config.name} home`}>
+            <span className="monogram" aria-hidden="true"><i>PS</i></span>
+            <span className="identity-name">PUGET<br />SCREEN</span>
+          </a>
+          <p className="identity-strap">{config.strapline}<br />Est. {config.foundedYear}</p>
+          <p className="identity-copy">{config.description}<br />Read more about us.</p>
+          <nav className="left-nav" aria-label="Primary navigation">
+            <a className="active" href="#listings">Listings</a>
+            <a href="#venues">Venues</a>
+            <a href="mailto:hello@ivison.id.au?subject=Puget%20Screen%20listing">Submit a Listing</a>
           </nav>
-        </aside>
-        <main className="main" id="listings">
-          <section className="hero">
-            <div className="hero-top">
-              <div>
-                <p className="eyebrow">Daily film listings · {config.city.name}, {config.city.region}</p>
-                <h1>{config.headline} <em>{config.headlineEmphasis}</em></h1>
-              </div>
-              <span className="issue">Edition 001 · Est. {config.foundedYear}</span>
-            </div>
-          </section>
-          <div className="date-row">
-            <button className="date-button" aria-label="Previous day" onClick={() => setDate(shiftDate(date, -1))}>←</button>
-            <time className="date-title" dateTime={date}>{dateLabel}</time>
-            <button className="date-button" aria-label="Next day" onClick={() => setDate(shiftDate(date, 1))}>→</button>
+          <div className="left-social">
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="mailto:hello@ivison.id.au">Contact</a>
           </div>
+        </aside>
+
+        <main className="listings-column" id="listings">
+          <div className="listings-topline">
+            <span>Listings:</span>
+            <span className="edition">Puget Screen No. 001</span>
+          </div>
+
+          <div className="region-tabs" aria-label="Region">
+            <button className="selected" type="button">Seattle</button>
+            <button type="button" disabled>Puget Sound — soon</button>
+          </div>
+
+          <div className="date-control">
+            <button aria-label="Previous day" onClick={() => setDate(shiftDate(date, -1))}>◀</button>
+            <time dateTime={date}>{dateLabel}</time>
+            <button aria-label="Next day" onClick={() => setDate(shiftDate(date, 1))}>▶</button>
+          </div>
+
           <div className="filters" aria-label="Filter screenings">
             {filters.map((item) => (
-              <button key={item.id} className="filter" aria-pressed={filter === item.id} onClick={() => setFilter(item.id)}>{item.label}</button>
+              <label key={item.id}>
+                <input
+                  type="checkbox"
+                  checked={filter === item.id}
+                  onChange={() => setFilter(item.id)}
+                />
+                <span>{item.label}</span>
+              </label>
             ))}
           </div>
-          <p className="eyebrow section-label">Screenings</p>
+
+          <h1 className="screenings-title">Screenings</h1>
+
           {enabledVenues.map((venue) => {
             const venueListings = dayListings.filter((listing) => listing.venueId === venue.id);
             if (!venueListings.length) return null;
             return (
               <section className="venue" key={venue.id}>
-                <div className="venue-header">
-                  <h2>{venue.name}</h2>
-                  <a href={venue.calendarUrl} target="_blank" rel="noreferrer">{venue.neighborhood} ↗</a>
+                <div className="venue-title">
+                  <h2><a href={venue.calendarUrl} target="_blank" rel="noreferrer">{venue.name}</a></h2>
+                  <span>{venue.neighborhood}</span>
                 </div>
-                <div className="show-grid">
+                <div className="shows">
                   {venueListings.map((show) => (
                     <article className="show" key={show.id}>
-                      <div className="series">{show.series ?? show.tags?.join(' / ')}</div>
+                      <p className="series">{show.series ?? show.tags?.join(' / ')}</p>
                       <h3><a href={show.url} target="_blank" rel="noreferrer">{show.title}</a></h3>
-                      <p className="details">{[show.director, show.year, show.runtime && `${show.runtime} min`].filter(Boolean).join(', ')}</p>
-                      <div className="show-footer">
-                        <span className="times">{show.showtimes.join(' · ')}</span>
-                        {show.format && <span className="format">{show.format}</span>}
-                      </div>
+                      <p className="film-details">{[show.director, show.year, show.runtime && `${show.runtime}m`, show.format].filter(Boolean).join(', ')}</p>
+                      <p className="showtimes">{show.showtimes.join(', ')}</p>
                     </article>
                   ))}
                 </div>
               </section>
             );
           })}
-          {!dayListings.length && <p className="empty">Nothing listed for this date yet. Try the next reel →</p>}
+
+          {!dayListings.length && (
+            <div className="empty">
+              <strong>No screenings listed yet.</strong>
+              <span>Try another date or follow a venue calendar.</span>
+            </div>
+          )}
         </main>
-        <aside className="right-rail" id="venues">
-          <section className="notice">
-            <p className="eyebrow signal">Tonight&apos;s note</p>
-            <h2>{config.noteTitle}</h2>
+
+        <aside className="right-column" id="venues">
+          <nav className="right-nav" aria-label="Secondary navigation">
+            <a href="#listings">Search</a>
+            <a href="#venues">Venues</a>
+            <a href="mailto:hello@ivison.id.au?subject=Puget%20Screen%20listing">Submit</a>
+          </nav>
+
+          <section className="events-card">
+            <h2>Events</h2>
+            <div className="event-doodle" aria-hidden="true">
+              <span className="event-copy">SEE SOMETHING<br />STRANGE<br />TONIGHT</span>
+              <span className="camera">▰</span>
+              <span className="tripod">╱│╲</span>
+            </div>
             <p>{config.noteBody}</p>
           </section>
-          <section className="venue-list">
-            <h3 className="eyebrow">Included venues</h3>
-            {enabledVenues.map((venue) => <a href={venue.website} key={venue.id} target="_blank" rel="noreferrer">{venue.name} ↗</a>)}
+
+          <section className="venue-index">
+            <h2>Venues</h2>
+            {enabledVenues.map((venue) => (
+              <a href={venue.website} key={venue.id} target="_blank" rel="noreferrer">
+                <span>{venue.name}</span><span>↗</span>
+              </a>
+            ))}
           </section>
-          <p className="right-bottom">Times change. Follow the ticket link before heading out.<br /><br />Independent film, every screen, one calendar.</p>
+
+          <section className="newsletter">
+            <span>Sign up for the Newsletter:</span>
+            <a href="mailto:hello@ivison.id.au?subject=Subscribe%20to%20Puget%20Screen">Subscribe</a>
+          </section>
         </aside>
       </div>
     </>
