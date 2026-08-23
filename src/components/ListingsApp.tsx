@@ -59,11 +59,6 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
             <span className="edition">Puget Screen No. 001</span>
           </div>
 
-          <div className="region-tabs" aria-label="Region">
-            <button className="selected" type="button">Seattle</button>
-            <button type="button" disabled>Puget Sound — soon</button>
-          </div>
-
           <div className="date-control">
             <button aria-label="Previous day" onClick={() => setDate(shiftDate(date, -1))}>◀</button>
             <time dateTime={date}>{dateLabel}</time>
