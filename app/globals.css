@@ -19,30 +19,11 @@ button, input { font: inherit; }
 a { color: inherit; }
 ::selection { color: #fff; background: var(--violet); }
 
-.anniversary {
-  height: 65px;
-  overflow: hidden;
-  border-bottom: 0;
-  color: var(--violet);
-  background: #fff;
-  white-space: nowrap;
-}
-.anniversary-track {
-  width: max-content;
-  padding-top: 17px;
-  font-size: 28px;
-  font-weight: 400;
-  letter-spacing: -.04em;
-  animation: crawl 34s linear infinite;
-}
-@keyframes crawl { to { transform: translateX(-50%); } }
-@media (prefers-reduced-motion: reduce) { .anniversary-track { animation: none; } }
-
 .site-frame {
   display: grid;
   grid-template-columns: 220px minmax(620px, 1fr) 220px;
   width: min(100%, 1500px);
-  min-height: calc(100vh - 65px);
+  min-height: 100vh;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -103,20 +84,6 @@ a { color: inherit; }
   line-height: 1.12;
 }
 .identity-copy { margin: 72px auto 12px; max-width: 176px; font-size: 11px; line-height: 1.05; text-transform: uppercase; }
-
-.left-nav { border-top: 1px solid var(--line); }
-.left-nav a {
-  display: block;
-  padding: 8px 3px 7px;
-  border-bottom: 1px solid var(--line);
-  font-size: 20px;
-  line-height: 1;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-.left-nav a:hover,
-.left-nav a.active { color: var(--violet); }
-.left-social { display: flex; justify-content: space-between; padding-top: 13px; font-size: 10px; text-transform: uppercase; }
 
 .listings-column { min-width: 0; padding: 0 12px 70px; }
 .listings-topline {
@@ -206,7 +173,6 @@ a { color: inherit; }
 .empty strong { display: block; font-family: var(--font-display), Georgia, serif; font-size: 29px; font-weight: 400; }
 .empty span { display: block; margin-top: 9px; font-size: 10px; text-transform: uppercase; }
 
-.right-nav a,
 .events-card h2,
 .venue-index h2 {
   display: block;
@@ -220,7 +186,6 @@ a { color: inherit; }
   text-decoration: none;
   text-transform: uppercase;
 }
-.right-nav a:hover { color: var(--violet); }
 .events-card { margin-top: 0; }
 .event-doodle {
   position: relative;
@@ -237,8 +202,6 @@ a { color: inherit; }
 .venue-index { border-top: 1px solid var(--line); }
 .venue-index a { display: flex; justify-content: space-between; padding: 7px 2px; border-bottom: 1px solid var(--line); font-size: 10px; text-decoration: none; text-transform: uppercase; }
 .venue-index a:hover { color: var(--violet); }
-.newsletter { margin-top: 20px; font-size: 10px; text-align: center; text-transform: uppercase; }
-.newsletter a { display: block; margin-top: 5px; color: var(--violet); font-family: var(--font-display), Georgia, serif; font-size: 20px; text-transform: none; }
 .mobile-head { display: none; }
 
 @media (max-width: 1100px) {
@@ -251,8 +214,6 @@ a { color: inherit; }
 }
 
 @media (max-width: 720px) {
-  .anniversary { height: 39px; }
-  .anniversary-track { padding-top: 9px; font-size: 18px; }
   .site-frame { display: block; min-height: 0; padding: 0; }
   .left-column { display: none; }
   .mobile-head {

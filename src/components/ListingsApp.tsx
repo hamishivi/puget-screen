@@ -38,10 +38,6 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
 
   return (
     <>
-      <div className="anniversary" aria-hidden="true">
-        <div className="anniversary-track">{`${config.name} · Moving images around the Sound · ${config.name} · Moving images around the Sound · ${config.name} · Moving images around the Sound · `.toUpperCase()}</div>
-      </div>
-
       <header className="mobile-head">
         <strong>{config.name}</strong>
         <span>{config.city.name}</span>
@@ -49,21 +45,12 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
 
       <div className="site-frame">
         <aside className="left-column">
-          <a className="identity" href="#listings" aria-label={`${config.name} home`}>
+          <div className="identity" aria-label={config.name}>
             <span className="monogram" aria-hidden="true"><i>PS</i></span>
             <span className="identity-name">PUGET<br />SCREEN</span>
-          </a>
-          <p className="identity-strap">{config.strapline}<br />Est. {config.foundedYear}</p>
-          <p className="identity-copy">{config.description}<br />Read more about us.</p>
-          <nav className="left-nav" aria-label="Primary navigation">
-            <a className="active" href="#listings">Listings</a>
-            <a href="#venues">Venues</a>
-            <a href="mailto:hello@ivison.id.au?subject=Puget%20Screen%20listing">Submit a Listing</a>
-          </nav>
-          <div className="left-social">
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
-            <a href="mailto:hello@ivison.id.au">Contact</a>
           </div>
+          <p className="identity-strap">{config.strapline}<br />Est. {config.foundedYear}</p>
+          <p className="identity-copy">{config.description}</p>
         </aside>
 
         <main className="listings-column" id="listings">
@@ -132,13 +119,7 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
           )}
         </main>
 
-        <aside className="right-column" id="venues">
-          <nav className="right-nav" aria-label="Secondary navigation">
-            <a href="#listings">Search</a>
-            <a href="#venues">Venues</a>
-            <a href="mailto:hello@ivison.id.au?subject=Puget%20Screen%20listing">Submit</a>
-          </nav>
-
+        <aside className="right-column">
           <section className="events-card">
             <h2>Events</h2>
             <div className="event-doodle" aria-hidden="true">
@@ -156,11 +137,6 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
                 <span>{venue.name}</span><span>↗</span>
               </a>
             ))}
-          </section>
-
-          <section className="newsletter">
-            <span>Sign up for the Newsletter:</span>
-            <a href="mailto:hello@ivison.id.au?subject=Subscribe%20to%20Puget%20Screen">Subscribe</a>
           </section>
         </aside>
       </div>
