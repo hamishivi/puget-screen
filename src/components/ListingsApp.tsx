@@ -3,13 +3,6 @@
 import { useMemo, useState } from 'react';
 import type { Listing, SiteConfig } from '../config/types';
 
-const filters = [
-  { id: 'all', label: 'All' },
-  { id: 'on-film', label: 'On Film' },
-  { id: 'experimental', label: 'Experimental' },
-  { id: 'local', label: 'Local Work' },
-];
-
 function isoDate(date: Date) { return date.toISOString().slice(0, 10); }
 
 function shiftDate(value: string, amount: number) {
@@ -28,11 +21,16 @@ function todayIn(timeZone: string) {
 
 export function ListingsApp({ config, listings }: { config: SiteConfig; listings: Listing[] }) {
   const [date, setDate] = useState(() => todayIn(config.city.timezone));
-  const [filter, setFilter] = useState('all');
+  const [onFilmOnly, setOnFilmOnly] = useState(false);
+  const [upcomingOnly, setUpcomingOnly] = useState(false);
   const enabledVenues = config.city.venues.filter((venue) => venue.enabled);
-  const dayListings = useMemo(
-    () => listings.filter((listing) => listing.date === date && (filter === 'all' || listing.tags?.includes(filter))),
-    [date, filter, listings],
+  const visibleListings = useMemo(
+    () => listings.filter((listing) => {
+      const matchesDate = upcomingOnly ? listing.date > date : listing.date === date;
+      const isOnFilm = listing.tags?.includes('on-film') || ['16mm', '35mm', '70mm'].includes(listing.format ?? '');
+      return matchesDate && (!onFilmOnly || isOnFilm);
+    }),
+    [date, listings, onFilmOnly, upcomingOnly],
   );
   const dateLabel = new Intl.DateTimeFormat(config.city.locale, {
     weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC',
@@ -86,22 +84,20 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
           </div>
 
           <div className="filters" aria-label="Filter screenings">
-            {filters.map((item) => (
-              <label key={item.id}>
-                <input
-                  type="checkbox"
-                  checked={filter === item.id}
-                  onChange={() => setFilter(item.id)}
-                />
-                <span>{item.label}</span>
-              </label>
-            ))}
+            <label>
+              <input type="checkbox" checked={onFilmOnly} onChange={(event) => setOnFilmOnly(event.target.checked)} />
+              <span>On Film</span>
+            </label>
+            <label>
+              <input type="checkbox" checked={upcomingOnly} onChange={(event) => setUpcomingOnly(event.target.checked)} />
+              <span>Upcoming</span>
+            </label>
           </div>
 
           <h1 className="screenings-title">Screenings</h1>
 
           {enabledVenues.map((venue) => {
-            const venueListings = dayListings.filter((listing) => listing.venueId === venue.id);
+            const venueListings = visibleListings.filter((listing) => listing.venueId === venue.id);
             if (!venueListings.length) return null;
             return (
               <section className="venue" key={venue.id}>
@@ -115,6 +111,11 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
                       <p className="series">{show.series ?? show.tags?.join(' / ')}</p>
                       <h3><a href={show.url} target="_blank" rel="noreferrer">{show.title}</a></h3>
                       <p className="film-details">{[show.director, show.year, show.runtime && `${show.runtime}m`, show.format].filter(Boolean).join(', ')}</p>
+                      {upcomingOnly && (
+                        <time className="screening-date" dateTime={show.date}>
+                          {new Intl.DateTimeFormat(config.city.locale, { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' }).format(new Date(`${show.date}T12:00:00Z`))}
+                        </time>
+                      )}
                       <p className="showtimes">{show.showtimes.join(', ')}</p>
                     </article>
                   ))}
@@ -123,7 +124,7 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
             );
           })}
 
-          {!dayListings.length && (
+          {!visibleListings.length && (
             <div className="empty">
               <strong>No screenings listed yet.</strong>
               <span>Try another date or follow a venue calendar.</span>
