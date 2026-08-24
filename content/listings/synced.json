@@ -1,1 +1,1607 @@
-[]
+[
+  {
+    "id": "siff-film-center-nt-live-les-liaisons-dangereuses-2026-08-23",
+    "venueId": "siff-film-center",
+    "date": "2026-08-23",
+    "title": "NT Live: Les Liaisons Dangereuses",
+    "runtime": 180,
+    "showtimes": [
+      "2:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=0",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-the-invite-2026-08-23",
+    "venueId": "siff-uptown",
+    "date": "2026-08-23",
+    "title": "The Invite",
+    "runtime": 107,
+    "showtimes": [
+      "3:45 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=0",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-tony-2026-08-23",
+    "venueId": "siff-uptown",
+    "date": "2026-08-23",
+    "title": "Tony",
+    "runtime": 106,
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=0",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-23",
+    "venueId": "siff-uptown",
+    "date": "2026-08-23",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "runtime": 112,
+    "format": "35mm",
+    "showtimes": [
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=0",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "siff-downtown-bfdi-inanimate-insanity-2026-tour-2026-08-23",
+    "venueId": "siff-downtown",
+    "date": "2026-08-23",
+    "title": "BFDI & Inanimate Insanity 2026 Tour",
+    "runtime": 120,
+    "showtimes": [
+      "6:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=0",
+    "tags": []
+  },
+  {
+    "id": "majestic-bay-the-odyssey-2026-08-23",
+    "venueId": "majestic-bay",
+    "date": "2026-08-23",
+    "title": "The Odyssey",
+    "showtimes": [
+      "6:30 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "majestic-bay-spider-man-brand-new-day-2026-08-23",
+    "venueId": "majestic-bay",
+    "date": "2026-08-23",
+    "title": "Spider-Man: Brand New Day",
+    "showtimes": [
+      "6:45 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-the-samurai-and-the-prisoner-2026-08-23",
+    "venueId": "siff-uptown",
+    "date": "2026-08-23",
+    "title": "The Samurai and the Prisoner",
+    "runtime": 147,
+    "showtimes": [
+      "6:45 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=0",
+    "tags": []
+  },
+  {
+    "id": "majestic-bay-the-end-of-oak-street-2026-08-23",
+    "venueId": "majestic-bay",
+    "date": "2026-08-23",
+    "title": "The End of Oak Street",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "majestic-bay-the-odyssey-2026-08-24",
+    "venueId": "majestic-bay",
+    "date": "2026-08-24",
+    "title": "The Odyssey",
+    "showtimes": [
+      "11:30 AM",
+      "3:00 PM",
+      "6:30 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "majestic-bay-spider-man-brand-new-day-2026-08-24",
+    "venueId": "majestic-bay",
+    "date": "2026-08-24",
+    "title": "Spider-Man: Brand New Day",
+    "showtimes": [
+      "11:45 AM",
+      "3:15 PM",
+      "6:45 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "majestic-bay-the-end-of-oak-street-2026-08-24",
+    "venueId": "majestic-bay",
+    "date": "2026-08-24",
+    "title": "The End of Oak Street",
+    "showtimes": [
+      "12:00 PM",
+      "3:30 PM",
+      "7:00 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-the-invite-2026-08-24",
+    "venueId": "siff-uptown",
+    "date": "2026-08-24",
+    "title": "The Invite",
+    "runtime": 107,
+    "showtimes": [
+      "3:45 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=1",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-tony-2026-08-24",
+    "venueId": "siff-uptown",
+    "date": "2026-08-24",
+    "title": "Tony",
+    "runtime": 106,
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=1",
+    "tags": []
+  },
+  {
+    "id": "beacon-limelight-2026-08-24",
+    "venueId": "beacon",
+    "date": "2026-08-24",
+    "title": "Limelight",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/limelight",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-24",
+    "venueId": "siff-uptown",
+    "date": "2026-08-24",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "runtime": 112,
+    "format": "35mm",
+    "showtimes": [
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=1",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "siff-film-center-nt-live-les-liaisons-dangereuses-2026-08-24",
+    "venueId": "siff-film-center",
+    "date": "2026-08-24",
+    "title": "NT Live: Les Liaisons Dangereuses",
+    "runtime": 180,
+    "showtimes": [
+      "6:30 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=1",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-the-samurai-and-the-prisoner-2026-08-24",
+    "venueId": "siff-uptown",
+    "date": "2026-08-24",
+    "title": "The Samurai and the Prisoner",
+    "runtime": 147,
+    "showtimes": [
+      "6:45 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=1",
+    "tags": []
+  },
+  {
+    "id": "siff-downtown-the-odyssey-2026-08-24",
+    "venueId": "siff-downtown",
+    "date": "2026-08-24",
+    "title": "The Odyssey",
+    "runtime": 172,
+    "format": "70mm",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=1",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "beacon-gandahar-2026-08-24",
+    "venueId": "beacon",
+    "date": "2026-08-24",
+    "title": "Gandahar",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/gandahar",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "majestic-bay-the-odyssey-2026-08-25",
+    "venueId": "majestic-bay",
+    "date": "2026-08-25",
+    "title": "The Odyssey",
+    "showtimes": [
+      "11:30 AM",
+      "3:00 PM",
+      "6:30 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "majestic-bay-spider-man-brand-new-day-2026-08-25",
+    "venueId": "majestic-bay",
+    "date": "2026-08-25",
+    "title": "Spider-Man: Brand New Day",
+    "showtimes": [
+      "11:45 AM",
+      "3:15 PM",
+      "6:45 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "majestic-bay-the-end-of-oak-street-2026-08-25",
+    "venueId": "majestic-bay",
+    "date": "2026-08-25",
+    "title": "The End of Oak Street",
+    "showtimes": [
+      "12:00 PM",
+      "3:30 PM",
+      "7:00 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-the-samurai-and-the-prisoner-2026-08-25",
+    "venueId": "siff-uptown",
+    "date": "2026-08-25",
+    "title": "The Samurai and the Prisoner",
+    "runtime": 147,
+    "showtimes": [
+      "3:45 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=2",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-tony-2026-08-25",
+    "venueId": "siff-uptown",
+    "date": "2026-08-25",
+    "title": "Tony",
+    "runtime": 106,
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=2",
+    "tags": []
+  },
+  {
+    "id": "beacon-gandahar-2026-08-25",
+    "venueId": "beacon",
+    "date": "2026-08-25",
+    "title": "Gandahar",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/gandahar",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-25",
+    "venueId": "siff-uptown",
+    "date": "2026-08-25",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "runtime": 112,
+    "format": "35mm",
+    "showtimes": [
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=2",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "siff-film-center-nt-live-les-liaisons-dangereuses-2026-08-25",
+    "venueId": "siff-film-center",
+    "date": "2026-08-25",
+    "title": "NT Live: Les Liaisons Dangereuses",
+    "runtime": 180,
+    "showtimes": [
+      "6:30 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=2",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-the-invite-2026-08-25",
+    "venueId": "siff-uptown",
+    "date": "2026-08-25",
+    "title": "The Invite",
+    "runtime": 107,
+    "showtimes": [
+      "7:15 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=2",
+    "tags": []
+  },
+  {
+    "id": "beacon-mysterious-skin-2026-08-25",
+    "venueId": "beacon",
+    "date": "2026-08-25",
+    "title": "Mysterious Skin",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/mysterious-skin",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "majestic-bay-the-odyssey-2026-08-26",
+    "venueId": "majestic-bay",
+    "date": "2026-08-26",
+    "title": "The Odyssey",
+    "showtimes": [
+      "11:30 AM",
+      "3:00 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "majestic-bay-spider-man-brand-new-day-2026-08-26",
+    "venueId": "majestic-bay",
+    "date": "2026-08-26",
+    "title": "Spider-Man: Brand New Day",
+    "showtimes": [
+      "11:45 AM",
+      "3:15 PM",
+      "6:15 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "majestic-bay-the-end-of-oak-street-2026-08-26",
+    "venueId": "majestic-bay",
+    "date": "2026-08-26",
+    "title": "The End of Oak Street",
+    "showtimes": [
+      "12:00 PM",
+      "3:30 PM",
+      "6:30 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-tony-2026-08-26",
+    "venueId": "siff-uptown",
+    "date": "2026-08-26",
+    "title": "Tony",
+    "runtime": 106,
+    "showtimes": [
+      "4:00 PM",
+      "7:15 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=3",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-the-invite-2026-08-26",
+    "venueId": "siff-uptown",
+    "date": "2026-08-26",
+    "title": "The Invite",
+    "runtime": 107,
+    "showtimes": [
+      "4:15 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=3",
+    "tags": []
+  },
+  {
+    "id": "beacon-gandahar-2026-08-26",
+    "venueId": "beacon",
+    "date": "2026-08-26",
+    "title": "Gandahar",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/gandahar",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-26",
+    "venueId": "siff-uptown",
+    "date": "2026-08-26",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "runtime": 112,
+    "format": "35mm",
+    "showtimes": [
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=3",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "majestic-bay-snakes-on-a-plane-2026-08-26",
+    "venueId": "majestic-bay",
+    "date": "2026-08-26",
+    "title": "Snakes on a Plane",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-goldeneye-2026-08-26",
+    "venueId": "siff-uptown",
+    "date": "2026-08-26",
+    "title": "Goldeneye",
+    "runtime": 130,
+    "format": "35mm",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=3",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "siff-downtown-the-odyssey-2026-08-26",
+    "venueId": "siff-downtown",
+    "date": "2026-08-26",
+    "title": "The Odyssey",
+    "runtime": 172,
+    "format": "70mm",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=3",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "beacon-crocodile-dose-2026-08-26",
+    "venueId": "beacon",
+    "date": "2026-08-26",
+    "title": "Crocodile Dose",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/crocodile-dose",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "siff-uptown-the-samurai-and-the-prisoner-2026-08-27",
+    "venueId": "siff-uptown",
+    "date": "2026-08-27",
+    "title": "The Samurai and the Prisoner",
+    "runtime": 147,
+    "showtimes": [
+      "3:45 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=4",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-tony-2026-08-27",
+    "venueId": "siff-uptown",
+    "date": "2026-08-27",
+    "title": "Tony",
+    "runtime": 106,
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=4",
+    "tags": []
+  },
+  {
+    "id": "beacon-mysterious-skin-2026-08-27",
+    "venueId": "beacon",
+    "date": "2026-08-27",
+    "title": "Mysterious Skin",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/mysterious-skin",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-27",
+    "venueId": "siff-uptown",
+    "date": "2026-08-27",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "runtime": 112,
+    "format": "35mm",
+    "showtimes": [
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=4",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "siff-downtown-the-odyssey-2026-08-27",
+    "venueId": "siff-downtown",
+    "date": "2026-08-27",
+    "title": "The Odyssey",
+    "runtime": 172,
+    "format": "70mm",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=4",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "siff-uptown-the-invite-2026-08-27",
+    "venueId": "siff-uptown",
+    "date": "2026-08-27",
+    "title": "The Invite",
+    "runtime": 107,
+    "showtimes": [
+      "7:15 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=4",
+    "tags": []
+  },
+  {
+    "id": "beacon-cinema-2026-08-27",
+    "venueId": "beacon",
+    "date": "2026-08-27",
+    "title": "?????? Cinema",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/blindfold",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-eyes-without-a-face-2026-08-28",
+    "venueId": "beacon",
+    "date": "2026-08-28",
+    "title": "Eyes Without A Face",
+    "showtimes": [
+      "4:00 PM",
+      "10:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/eyes-without-a-face",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "siff-uptown-american-doctor-2026-08-28",
+    "venueId": "siff-uptown",
+    "date": "2026-08-28",
+    "title": "American Doctor",
+    "runtime": 93,
+    "showtimes": [
+      "4:00 PM",
+      "6:45 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=5",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-tony-2026-08-28",
+    "venueId": "siff-uptown",
+    "date": "2026-08-28",
+    "title": "Tony",
+    "runtime": 106,
+    "showtimes": [
+      "4:15 PM",
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=5",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-28",
+    "venueId": "siff-uptown",
+    "date": "2026-08-28",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "runtime": 112,
+    "format": "35mm",
+    "showtimes": [
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=5",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "siff-film-center-bernstein-s-wall-2026-08-28",
+    "venueId": "siff-film-center",
+    "date": "2026-08-28",
+    "title": "Bernstein's Wall",
+    "runtime": 100,
+    "showtimes": [
+      "6:30 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=5",
+    "tags": []
+  },
+  {
+    "id": "beacon-crocodile-dose-2026-08-28",
+    "venueId": "beacon",
+    "date": "2026-08-28",
+    "title": "Crocodile Dose",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/crocodile-dose",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "siff-downtown-the-odyssey-2026-08-28",
+    "venueId": "siff-downtown",
+    "date": "2026-08-28",
+    "title": "The Odyssey",
+    "runtime": 172,
+    "format": "70mm",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=5",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "siff-uptown-american-doctor-2026-08-29",
+    "venueId": "siff-uptown",
+    "date": "2026-08-29",
+    "title": "American Doctor",
+    "runtime": 93,
+    "showtimes": [
+      "1:00 PM",
+      "4:00 PM",
+      "6:45 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=6",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-tony-2026-08-29",
+    "venueId": "siff-uptown",
+    "date": "2026-08-29",
+    "title": "Tony",
+    "runtime": 106,
+    "showtimes": [
+      "1:15 PM",
+      "4:15 PM",
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=6",
+    "tags": []
+  },
+  {
+    "id": "siff-film-center-bernstein-s-wall-2026-08-29",
+    "venueId": "siff-film-center",
+    "date": "2026-08-29",
+    "title": "Bernstein's Wall",
+    "runtime": 100,
+    "showtimes": [
+      "1:30 PM",
+      "4:15 PM",
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=6",
+    "tags": []
+  },
+  {
+    "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-29",
+    "venueId": "siff-uptown",
+    "date": "2026-08-29",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "runtime": 112,
+    "format": "35mm",
+    "showtimes": [
+      "1:30 PM",
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=6",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "beacon-scalpel-2026-08-29",
+    "venueId": "beacon",
+    "date": "2026-08-29",
+    "title": "Scalpel",
+    "showtimes": [
+      "10:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/scalpel",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "siff-downtown-the-odyssey-2026-08-29",
+    "venueId": "siff-downtown",
+    "date": "2026-08-29",
+    "title": "The Odyssey",
+    "runtime": 172,
+    "format": "70mm",
+    "showtimes": [
+      "3:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=6",
+    "tags": [
+      "on-film"
+    ]
+  },
+  {
+    "id": "beacon-last-year-at-marienbad-2026-08-29",
+    "venueId": "beacon",
+    "date": "2026-08-29",
+    "title": "Last Year At Marienbad",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/last-year-at-marienbad",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-a-king-in-new-york-2026-08-30",
+    "venueId": "beacon",
+    "date": "2026-08-30",
+    "title": "A King In New York",
+    "showtimes": [
+      "2:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/a-king-in-new-york",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-colossal-youth-2026-08-30",
+    "venueId": "beacon",
+    "date": "2026-08-30",
+    "title": "Colossal Youth",
+    "showtimes": [
+      "5:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/colossal-youth",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-a-king-in-new-york-2026-08-31",
+    "venueId": "beacon",
+    "date": "2026-08-31",
+    "title": "A King In New York",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/a-king-in-new-york",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-last-year-at-marienbad-2026-08-31",
+    "venueId": "beacon",
+    "date": "2026-08-31",
+    "title": "Last Year At Marienbad",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/last-year-at-marienbad",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-last-year-at-marienbad-2026-09-01",
+    "venueId": "beacon",
+    "date": "2026-09-01",
+    "title": "Last Year At Marienbad",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/last-year-at-marienbad",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-saragossa-manuscript-2026-09-01",
+    "venueId": "beacon",
+    "date": "2026-09-01",
+    "title": "The Saragossa Manuscript",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-saragossa-manuscript",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-saragossa-manuscript-2026-09-02",
+    "venueId": "beacon",
+    "date": "2026-09-02",
+    "title": "The Saragossa Manuscript",
+    "showtimes": [
+      "4:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-saragossa-manuscript",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "majestic-bay-the-room-2026-09-02",
+    "venueId": "majestic-bay",
+    "date": "2026-09-02",
+    "title": "The Room",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "beacon-the-immortal-story-2026-09-02",
+    "venueId": "beacon",
+    "date": "2026-09-02",
+    "title": "The Immortal Story",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-immortal-story",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-immortal-story-2026-09-03",
+    "venueId": "beacon",
+    "date": "2026-09-03",
+    "title": "The Immortal Story",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-immortal-story",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-saragossa-manuscript-2026-09-03",
+    "venueId": "beacon",
+    "date": "2026-09-03",
+    "title": "The Saragossa Manuscript",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-saragossa-manuscript",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-seconds-2026-09-04",
+    "venueId": "beacon",
+    "date": "2026-09-04",
+    "title": "Seconds",
+    "showtimes": [
+      "4:00 PM",
+      "10:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/seconds",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-seattle-esperanto-society-presents-incubus-2026-09-04",
+    "venueId": "beacon",
+    "date": "2026-09-04",
+    "title": "The Seattle Esperanto Society Presents: Incubus",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-seattle-esperanto-society-presents-incubus",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-faceless-2026-09-05",
+    "venueId": "beacon",
+    "date": "2026-09-05",
+    "title": "Faceless",
+    "showtimes": [
+      "10:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/faceless",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-mirror-2026-09-05",
+    "venueId": "beacon",
+    "date": "2026-09-05",
+    "title": "Mirror",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/mirror",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-dodsworth-2026-09-06",
+    "venueId": "beacon",
+    "date": "2026-09-06",
+    "title": "Dodsworth",
+    "showtimes": [
+      "2:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/dodsworth",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-celine-and-julie-go-boating-2026-09-06",
+    "venueId": "beacon",
+    "date": "2026-09-06",
+    "title": "Celine And Julie Go Boating",
+    "showtimes": [
+      "5:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/celine-and-julie-go-boating",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-five-minutes-to-live-2026-09-07",
+    "venueId": "beacon",
+    "date": "2026-09-07",
+    "title": "Five Minutes To Live!",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/five-minutes-to-live",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-dodsworth-2026-09-08",
+    "venueId": "beacon",
+    "date": "2026-09-08",
+    "title": "Dodsworth",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/dodsworth",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-mirror-2026-09-08",
+    "venueId": "beacon",
+    "date": "2026-09-08",
+    "title": "Mirror",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/mirror",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-mirror-2026-09-09",
+    "venueId": "beacon",
+    "date": "2026-09-09",
+    "title": "Mirror",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/mirror",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "majestic-bay-lawrence-of-arabia-2026-09-09",
+    "venueId": "majestic-bay",
+    "date": "2026-09-09",
+    "title": "Lawrence of Arabia",
+    "showtimes": [
+      "6:00 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "beacon-the-spider-s-stratagem-2026-09-09",
+    "venueId": "beacon",
+    "date": "2026-09-09",
+    "title": "The Spider's Stratagem",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-spider-s-stratagem",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-spider-s-stratagem-2026-09-10",
+    "venueId": "beacon",
+    "date": "2026-09-10",
+    "title": "The Spider's Stratagem",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-spider-s-stratagem",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-mirror-2026-09-10",
+    "venueId": "beacon",
+    "date": "2026-09-10",
+    "title": "Mirror",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/mirror",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-face-of-another-2026-09-11",
+    "venueId": "beacon",
+    "date": "2026-09-11",
+    "title": "The Face Of Another",
+    "showtimes": [
+      "4:00 PM",
+      "10:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-face-of-another",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-invasion-2026-09-11",
+    "venueId": "beacon",
+    "date": "2026-09-11",
+    "title": "Invasion",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/invasion",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-little-foxes-2026-09-13",
+    "venueId": "beacon",
+    "date": "2026-09-13",
+    "title": "The Little Foxes",
+    "showtimes": [
+      "2:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-little-foxes",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-capone-cries-a-lot-2026-09-13",
+    "venueId": "beacon",
+    "date": "2026-09-13",
+    "title": "Capone Cries A Lot",
+    "showtimes": [
+      "5:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/capone-cries-a-lot",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-little-foxes-2026-09-14",
+    "venueId": "beacon",
+    "date": "2026-09-14",
+    "title": "The Little Foxes",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-little-foxes",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-three-crowns-of-the-sailor-2026-09-14",
+    "venueId": "beacon",
+    "date": "2026-09-14",
+    "title": "Three Crowns Of The Sailor",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/three-crowns-of-the-sailor",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-capone-cries-a-lot-2026-09-15",
+    "venueId": "beacon",
+    "date": "2026-09-15",
+    "title": "Capone Cries A Lot",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/capone-cries-a-lot",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-dread-beat-an-blood-2026-09-15",
+    "venueId": "beacon",
+    "date": "2026-09-15",
+    "title": "Dread Beat An Blood",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/dread-beat-an-blood",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-dread-beat-an-blood-2026-09-16",
+    "venueId": "beacon",
+    "date": "2026-09-16",
+    "title": "Dread Beat An Blood",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/dread-beat-an-blood",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "majestic-bay-a-league-of-their-own-2026-09-16",
+    "venueId": "majestic-bay",
+    "date": "2026-09-16",
+    "title": "A League of Their Own",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "beacon-dread-beat-an-blood-2026-09-17",
+    "venueId": "beacon",
+    "date": "2026-09-17",
+    "title": "Dread Beat An Blood",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/dread-beat-an-blood",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-secs-fest-presents-the-raspberry-reich-2026-09-18",
+    "venueId": "beacon",
+    "date": "2026-09-18",
+    "title": "Secs Fest Presents The Raspberry Reich",
+    "showtimes": [
+      "10:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/secs-fest-presents-the-raspberry-reich",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-three-crowns-of-the-sailor-2026-09-18",
+    "venueId": "beacon",
+    "date": "2026-09-18",
+    "title": "Three Crowns Of The Sailor",
+    "showtimes": [
+      "4:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/three-crowns-of-the-sailor",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-death-and-the-compass-2026-09-18",
+    "venueId": "beacon",
+    "date": "2026-09-18",
+    "title": "Death And The Compass",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/death-and-the-compass",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-vhs-ber-alles-presents-2026-09-19",
+    "venueId": "beacon",
+    "date": "2026-09-19",
+    "title": "Vhs Über Alles Presents",
+    "showtimes": [
+      "10:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/vhs-uber-alles-presents-b",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-best-years-of-our-lives-2026-09-20",
+    "venueId": "beacon",
+    "date": "2026-09-20",
+    "title": "The Best Years Of Our Lives",
+    "showtimes": [
+      "2:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-best-years-of-our-lives",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-samba-traor-2026-09-20",
+    "venueId": "beacon",
+    "date": "2026-09-20",
+    "title": "Samba Traoré",
+    "showtimes": [
+      "5:45 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/samba-traor",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-best-years-of-our-lives-2026-09-21",
+    "venueId": "beacon",
+    "date": "2026-09-21",
+    "title": "The Best Years Of Our Lives",
+    "showtimes": [
+      "3:45 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-best-years-of-our-lives",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-invention-of-morel-2026-09-21",
+    "venueId": "beacon",
+    "date": "2026-09-21",
+    "title": "The Invention Of Morel",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-invention-of-morel",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-invention-of-morel-2026-09-22",
+    "venueId": "beacon",
+    "date": "2026-09-22",
+    "title": "The Invention Of Morel",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-invention-of-morel",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-death-and-the-compass-2026-09-22",
+    "venueId": "beacon",
+    "date": "2026-09-22",
+    "title": "Death And The Compass",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/death-and-the-compass",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-death-and-the-compass-2026-09-23",
+    "venueId": "beacon",
+    "date": "2026-09-23",
+    "title": "Death And The Compass",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/death-and-the-compass",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "majestic-bay-waterworld-2026-09-23",
+    "venueId": "majestic-bay",
+    "date": "2026-09-23",
+    "title": "Waterworld",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "beacon-samba-traor-2026-09-23",
+    "venueId": "beacon",
+    "date": "2026-09-23",
+    "title": "Samba Traoré",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/samba-traor",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-samba-traor-2026-09-24",
+    "venueId": "beacon",
+    "date": "2026-09-24",
+    "title": "Samba Traoré",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/samba-traor",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-l-immortelle-2026-09-24",
+    "venueId": "beacon",
+    "date": "2026-09-24",
+    "title": "L'immortelle",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/l-immortelle",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-fantomas-the-super-krime-kut-2026-09-25",
+    "venueId": "beacon",
+    "date": "2026-09-25",
+    "title": "Fantomas: The Super Krime Kut",
+    "showtimes": [
+      "10:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/fantomas-the-super-krime-kut",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-l-immortelle-2026-09-25",
+    "venueId": "beacon",
+    "date": "2026-09-25",
+    "title": "L'immortelle",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/l-immortelle",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-synecdoche-new-york-2026-09-25",
+    "venueId": "beacon",
+    "date": "2026-09-25",
+    "title": "Synecdoche, New York",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/synecdoche-new-york",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-extraordinary-stories-2026-09-26",
+    "venueId": "beacon",
+    "date": "2026-09-26",
+    "title": "Extraordinary Stories",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/extraordinary-stories",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-heiress-2026-09-27",
+    "venueId": "beacon",
+    "date": "2026-09-27",
+    "title": "The Heiress",
+    "showtimes": [
+      "2:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-heiress",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-rebels-of-the-neon-god-2026-09-27",
+    "venueId": "beacon",
+    "date": "2026-09-27",
+    "title": "Rebels Of The Neon God",
+    "showtimes": [
+      "5:00 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/rebels-of-the-neon-god",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-the-heiress-2026-09-28",
+    "venueId": "beacon",
+    "date": "2026-09-28",
+    "title": "The Heiress",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/the-heiress",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "beacon-synecdoche-new-york-2026-09-28",
+    "venueId": "beacon",
+    "date": "2026-09-28",
+    "title": "Synecdoche, New York",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://thebeacon.film/calendar/movie/synecdoche-new-york",
+    "tags": [
+      "repertory"
+    ]
+  },
+  {
+    "id": "majestic-bay-tremors-2026-09-30",
+    "venueId": "majestic-bay",
+    "date": "2026-09-30",
+    "title": "Tremors",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "majestic-bay-love-jones-2026-10-07",
+    "venueId": "majestic-bay",
+    "date": "2026-10-07",
+    "title": "Love Jones",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  }
+]

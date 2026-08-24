@@ -53,8 +53,8 @@ a { color: inherit; }
 .monogram {
   position: relative;
   display: grid;
-  width: 160px;
-  height: 148px;
+  width: 142px;
+  height: 132px;
   margin: 0 auto 8px;
   place-items: center;
   overflow: hidden;
@@ -62,18 +62,18 @@ a { color: inherit; }
 .monogram::before,
 .monogram::after {
   position: absolute;
-  inset: 12px 18px;
-  border-radius: 26px 8px 26px 8px;
+  inset: 11px 16px;
+  border-radius: 23px 7px 23px 7px;
   content: '';
 }
-.monogram::before { transform: translateX(-18px); background: #000; }
-.monogram::after { transform: translateX(22px); background: var(--violet); mix-blend-mode: multiply; }
+.monogram::before { transform: translateX(-16px); background: #000; }
+.monogram::after { transform: translateX(20px); background: var(--violet); mix-blend-mode: multiply; }
 .monogram i {
   position: relative;
   z-index: 2;
   color: #fff;
   font-family: var(--font-sans), Arial Black, Arial, sans-serif;
-  font-size: 62px;
+  font-size: 55px;
   font-style: normal;
   font-weight: 800;
   letter-spacing: -.1em;
@@ -247,9 +247,9 @@ a { color: inherit; }
 .format-mark {
   position: relative;
   display: inline-grid;
-  min-width: 31px;
-  height: 20px;
-  padding: 3px 5px;
+  min-width: 28px;
+  height: 18px;
+  padding: 3px 4px;
   place-items: center;
   flex: 0 0 auto;
   border: 1px solid currentColor;
@@ -283,9 +283,9 @@ a { color: inherit; }
 .language-mark {
   position: relative;
   display: inline-grid;
-  min-width: 28px;
-  height: 20px;
-  padding: 0 5px;
+  min-width: 25px;
+  height: 18px;
+  padding: 0 4px;
   place-items: center;
   flex: 0 0 auto;
   border: 1px solid currentColor;
@@ -312,9 +312,9 @@ a { color: inherit; }
 .subtitle-mark {
   position: relative;
   display: inline-grid;
-  min-width: 42px;
-  height: 20px;
-  padding: 2px 5px 4px;
+  min-width: 38px;
+  height: 18px;
+  padding: 2px 4px 4px;
   place-items: center;
   flex: 0 0 auto;
   border: 1px solid currentColor;
@@ -362,15 +362,15 @@ a { color: inherit; }
 .events-card { margin-top: 0; }
 .event-doodle {
   position: relative;
-  height: 222px;
+  height: 184px;
   margin: 10px 0 9px;
   border: 2px solid var(--violet);
   color: var(--violet);
   transform: rotate(-1deg);
 }
-.event-copy { position: absolute; top: 15px; left: 14px; font-size: 17px; font-style: italic; font-weight: 750; letter-spacing: -.025em; line-height: .93; }
-.camera { position: absolute; right: 28px; bottom: 50px; font-size: 70px; transform: rotate(6deg); }
-.tripod { position: absolute; right: 19px; bottom: 15px; font-family: var(--font-display), Georgia, serif; font-size: 49px; line-height: 1; }
+.event-copy { position: absolute; top: 13px; left: 12px; font-size: 15px; font-style: italic; font-weight: 750; letter-spacing: -.025em; line-height: .93; }
+.camera { position: absolute; right: 25px; bottom: 42px; font-size: 56px; transform: rotate(6deg); }
+.tripod { position: absolute; right: 18px; bottom: 13px; font-family: var(--font-display), Georgia, serif; font-size: 40px; line-height: 1; }
 .events-card p { margin: 0 2px 17px; font-family: var(--font-display), Georgia, serif; font-size: 14px; letter-spacing: -.012em; line-height: 1.15; }
 .venue-index { border-top: 1px solid var(--line); }
 .venue-index a {
@@ -391,8 +391,8 @@ a { color: inherit; }
 .venue-index-name { display: flex; min-width: 0; align-items: center; gap: 7px; }
 .venue-mark {
   display: inline-grid;
-  width: 1.38em;
-  height: 1.38em;
+  width: 1.24em;
+  height: 1.24em;
   place-items: center;
   flex: 0 0 auto;
   border: 1px solid currentColor;
