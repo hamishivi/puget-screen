@@ -82,6 +82,41 @@ function LanguageMarks({ language, subtitles }: Pick<Listing, 'language' | 'subt
   );
 }
 
+function FilmDetails({ show }: { show: Listing }) {
+  const facts = [
+    ['Director', show.director],
+    ['Year', show.year],
+    ['Country', show.country],
+    ['Runtime', show.runtime ? `${show.runtime} min` : undefined],
+    ['Rating', show.rating],
+    ['Language', show.language],
+    ['Subtitles', show.subtitles === false ? 'None' : show.subtitles],
+    ['Presentation', show.format],
+  ].filter((fact): fact is [string, string | number] => fact[1] !== undefined && fact[1] !== '');
+
+  return (
+    <details className="more-details">
+      <summary>Film details</summary>
+      <div className="details-panel">
+        {show.synopsis && <p className="synopsis">{show.synopsis}</p>}
+        {facts.length > 0 && (
+          <dl className="detail-facts">
+            {facts.map(([label, value]) => (
+              <div key={label}>
+                <dt>{label}</dt>
+                <dd>{value}</dd>
+              </div>
+            ))}
+          </dl>
+        )}
+        <a className="official-link" href={show.url} target="_blank" rel="noreferrer">
+          Official listing + tickets <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </details>
+  );
+}
+
 export function ListingsApp({ config, listings }: { config: SiteConfig; listings: Listing[] }) {
   const [date, setDate] = useState(() => todayIn(config.city.timezone));
   const [onFilmOnly, setOnFilmOnly] = useState(false);
@@ -173,6 +208,7 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
                         </time>
                       )}
                       <p className="showtimes">{show.showtimes.join(', ')}</p>
+                      <FilmDetails show={show} />
                     </article>
                   ))}
                 </div>

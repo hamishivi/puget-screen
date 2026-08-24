@@ -1,119 +1,99 @@
 [
   {
-    "id": "siff-film-center-nt-live-les-liaisons-dangereuses-2026-08-23",
-    "venueId": "siff-film-center",
-    "date": "2026-08-23",
-    "title": "NT Live: Les Liaisons Dangereuses",
-    "runtime": 180,
-    "showtimes": [
-      "2:00 PM"
-    ],
-    "url": "https://www.siff.net/cinema?day=0",
-    "tags": []
-  },
-  {
     "id": "siff-uptown-the-invite-2026-08-23",
     "venueId": "siff-uptown",
     "date": "2026-08-23",
     "title": "The Invite",
+    "director": "Olivia Wilde",
+    "year": 2026,
     "runtime": 107,
+    "country": "USA",
     "showtimes": [
       "3:45 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=0",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/the-invite",
+    "tags": [],
+    "synopsis": "Joe and Angela’s marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
+    "language": "English"
   },
   {
     "id": "siff-uptown-tony-2026-08-23",
     "venueId": "siff-uptown",
     "date": "2026-08-23",
     "title": "Tony",
+    "director": "Matt Johnson",
+    "year": 2026,
     "runtime": 106,
+    "country": "USA",
     "showtimes": [
       "4:00 PM",
       "7:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=0",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/tony",
+    "tags": [],
+    "synopsis": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
+    "language": "English"
   },
   {
     "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-23",
     "venueId": "siff-uptown",
     "date": "2026-08-23",
     "title": "Teenage Sex and Death at Camp Miasma",
-    "runtime": 112,
+    "director": "Jane Schoenbrun",
+    "year": 2026,
+    "runtime": 113,
+    "country": "USA",
     "format": "35mm",
     "showtimes": [
       "4:30 PM",
       "7:30 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=0",
+    "url": "https://www.siff.net/cinema/in-theaters/teenage-sex-and-death-at-camp-miasma",
     "tags": [
       "on-film"
-    ]
+    ],
+    "synopsis": "After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original movie’s star, a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium.",
+    "language": "English"
   },
   {
     "id": "siff-downtown-bfdi-inanimate-insanity-2026-tour-2026-08-23",
     "venueId": "siff-downtown",
     "date": "2026-08-23",
     "title": "BFDI & Inanimate Insanity 2026 Tour",
-    "runtime": 120,
+    "year": 2026,
+    "runtime": 110,
+    "country": "USA",
     "showtimes": [
       "6:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=0",
-    "tags": []
-  },
-  {
-    "id": "majestic-bay-the-odyssey-2026-08-23",
-    "venueId": "majestic-bay",
-    "date": "2026-08-23",
-    "title": "The Odyssey",
-    "showtimes": [
-      "6:30 PM"
-    ],
-    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
-    "tags": []
-  },
-  {
-    "id": "majestic-bay-spider-man-brand-new-day-2026-08-23",
-    "venueId": "majestic-bay",
-    "date": "2026-08-23",
-    "title": "Spider-Man: Brand New Day",
-    "showtimes": [
-      "6:45 PM"
-    ],
-    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/bfdi-and-inanimate-insanity-2026-tour",
+    "tags": [],
+    "synopsis": "Experience an exclusive live premiere of never-before-seen episodes from BFDI: The Power of Two and Inanimate Insanity IV, shown on the big screen for fans in attendance.",
+    "language": "English"
   },
   {
     "id": "siff-uptown-the-samurai-and-the-prisoner-2026-08-23",
     "venueId": "siff-uptown",
     "date": "2026-08-23",
     "title": "The Samurai and the Prisoner",
+    "director": "Kiyoshi Kurosawa",
+    "year": 2026,
     "runtime": 147,
+    "country": "Japan",
     "showtimes": [
       "6:45 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=0",
-    "tags": []
-  },
-  {
-    "id": "majestic-bay-the-end-of-oak-street-2026-08-23",
-    "venueId": "majestic-bay",
-    "date": "2026-08-23",
-    "title": "The End of Oak Street",
-    "showtimes": [
-      "7:00 PM"
-    ],
-    "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/the-samurai-and-the-prisoner",
+    "tags": [],
+    "synopsis": "Based on Honobu Yonezawa's novel. Set in 16th century Japan, follows Lord Murashige Araki who, besieged in his castle, confronts mysterious crimes and allies with imprisoned strategist Kanbei Kuroda to uncover the truth.",
+    "language": "Japanese"
   },
   {
     "id": "majestic-bay-the-odyssey-2026-08-24",
     "venueId": "majestic-bay",
     "date": "2026-08-24",
     "title": "The Odyssey",
+    "rating": "R",
     "showtimes": [
       "11:30 AM",
       "3:00 PM",
@@ -127,6 +107,7 @@
     "venueId": "majestic-bay",
     "date": "2026-08-24",
     "title": "Spider-Man: Brand New Day",
+    "rating": "PG-13",
     "showtimes": [
       "11:45 AM",
       "3:15 PM",
@@ -140,6 +121,7 @@
     "venueId": "majestic-bay",
     "date": "2026-08-24",
     "title": "The End of Oak Street",
+    "rating": "PG-13",
     "showtimes": [
       "12:00 PM",
       "3:30 PM",
@@ -153,25 +135,35 @@
     "venueId": "siff-uptown",
     "date": "2026-08-24",
     "title": "The Invite",
+    "director": "Olivia Wilde",
+    "year": 2026,
     "runtime": 107,
+    "country": "USA",
     "showtimes": [
       "3:45 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=1",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/the-invite",
+    "tags": [],
+    "synopsis": "Joe and Angela’s marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
+    "language": "English"
   },
   {
     "id": "siff-uptown-tony-2026-08-24",
     "venueId": "siff-uptown",
     "date": "2026-08-24",
     "title": "Tony",
+    "director": "Matt Johnson",
+    "year": 2026,
     "runtime": 106,
+    "country": "USA",
     "showtimes": [
       "4:00 PM",
       "7:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=1",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/tony",
+    "tags": [],
+    "synopsis": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
+    "language": "English"
   },
   {
     "id": "beacon-limelight-2026-08-24",
@@ -184,30 +176,42 @@
     "url": "https://thebeacon.film/calendar/movie/limelight",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "Charlie Chaplin’s masterful drama about the twilight of a former vaudeville star is an astonishing work of art from an aging, reflective master. Chaplin plays…",
+    "director": "Charlie Chaplin",
+    "year": 1952,
+    "runtime": 137
   },
   {
     "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-24",
     "venueId": "siff-uptown",
     "date": "2026-08-24",
     "title": "Teenage Sex and Death at Camp Miasma",
-    "runtime": 112,
+    "director": "Jane Schoenbrun",
+    "year": 2026,
+    "runtime": 113,
+    "country": "USA",
     "format": "35mm",
     "showtimes": [
       "4:30 PM",
       "7:30 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=1",
+    "url": "https://www.siff.net/cinema/in-theaters/teenage-sex-and-death-at-camp-miasma",
     "tags": [
       "on-film"
-    ]
+    ],
+    "synopsis": "After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original movie’s star, a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium.",
+    "language": "English"
   },
   {
     "id": "siff-film-center-nt-live-les-liaisons-dangereuses-2026-08-24",
     "venueId": "siff-film-center",
     "date": "2026-08-24",
     "title": "NT Live: Les Liaisons Dangereuses",
+    "director": "Marianne Elliott",
+    "year": 2026,
     "runtime": 180,
+    "country": "United Kingdom",
     "showtimes": [
       "6:30 PM"
     ],
@@ -219,27 +223,37 @@
     "venueId": "siff-uptown",
     "date": "2026-08-24",
     "title": "The Samurai and the Prisoner",
+    "director": "Kiyoshi Kurosawa",
+    "year": 2026,
     "runtime": 147,
+    "country": "Japan",
     "showtimes": [
       "6:45 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=1",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/the-samurai-and-the-prisoner",
+    "tags": [],
+    "synopsis": "Based on Honobu Yonezawa's novel. Set in 16th century Japan, follows Lord Murashige Araki who, besieged in his castle, confronts mysterious crimes and allies with imprisoned strategist Kanbei Kuroda to uncover the truth.",
+    "language": "Japanese"
   },
   {
     "id": "siff-downtown-the-odyssey-2026-08-24",
     "venueId": "siff-downtown",
     "date": "2026-08-24",
     "title": "The Odyssey",
+    "director": "Christopher Nolan",
+    "year": 2026,
     "runtime": 172,
+    "country": "United Kingdom, USA",
     "format": "70mm",
     "showtimes": [
       "7:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=1",
+    "url": "https://www.siff.net/cinema/in-theaters/the-odyssey",
     "tags": [
       "on-film"
-    ]
+    ],
+    "synopsis": "A mythic action epic shot across the world bringing Homer’s foundational saga to screens, starring Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson and Lupita Nyong’o, with Zendaya and Charlize Theron.",
+    "language": "English"
   },
   {
     "id": "beacon-gandahar-2026-08-24",
@@ -252,13 +266,18 @@
     "url": "https://thebeacon.film/calendar/movie/gandahar",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "An entire civilization must confront its destiny in alternative-animation pioneer René Laloux’s final feature, a cult classic of mind-bending science fiction.…",
+    "director": "René Laloux",
+    "year": 1987,
+    "runtime": 83
   },
   {
     "id": "majestic-bay-the-odyssey-2026-08-25",
     "venueId": "majestic-bay",
     "date": "2026-08-25",
     "title": "The Odyssey",
+    "rating": "R",
     "showtimes": [
       "11:30 AM",
       "3:00 PM",
@@ -272,6 +291,7 @@
     "venueId": "majestic-bay",
     "date": "2026-08-25",
     "title": "Spider-Man: Brand New Day",
+    "rating": "PG-13",
     "showtimes": [
       "11:45 AM",
       "3:15 PM",
@@ -285,6 +305,7 @@
     "venueId": "majestic-bay",
     "date": "2026-08-25",
     "title": "The End of Oak Street",
+    "rating": "PG-13",
     "showtimes": [
       "12:00 PM",
       "3:30 PM",
@@ -298,25 +319,35 @@
     "venueId": "siff-uptown",
     "date": "2026-08-25",
     "title": "The Samurai and the Prisoner",
+    "director": "Kiyoshi Kurosawa",
+    "year": 2026,
     "runtime": 147,
+    "country": "Japan",
     "showtimes": [
       "3:45 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=2",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/the-samurai-and-the-prisoner",
+    "tags": [],
+    "synopsis": "Based on Honobu Yonezawa's novel. Set in 16th century Japan, follows Lord Murashige Araki who, besieged in his castle, confronts mysterious crimes and allies with imprisoned strategist Kanbei Kuroda to uncover the truth.",
+    "language": "Japanese"
   },
   {
     "id": "siff-uptown-tony-2026-08-25",
     "venueId": "siff-uptown",
     "date": "2026-08-25",
     "title": "Tony",
+    "director": "Matt Johnson",
+    "year": 2026,
     "runtime": 106,
+    "country": "USA",
     "showtimes": [
       "4:00 PM",
       "7:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=2",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/tony",
+    "tags": [],
+    "synopsis": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
+    "language": "English"
   },
   {
     "id": "beacon-gandahar-2026-08-25",
@@ -329,30 +360,42 @@
     "url": "https://thebeacon.film/calendar/movie/gandahar",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "An entire civilization must confront its destiny in alternative-animation pioneer René Laloux’s final feature, a cult classic of mind-bending science fiction.…",
+    "director": "René Laloux",
+    "year": 1987,
+    "runtime": 83
   },
   {
     "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-25",
     "venueId": "siff-uptown",
     "date": "2026-08-25",
     "title": "Teenage Sex and Death at Camp Miasma",
-    "runtime": 112,
+    "director": "Jane Schoenbrun",
+    "year": 2026,
+    "runtime": 113,
+    "country": "USA",
     "format": "35mm",
     "showtimes": [
       "4:30 PM",
       "7:30 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=2",
+    "url": "https://www.siff.net/cinema/in-theaters/teenage-sex-and-death-at-camp-miasma",
     "tags": [
       "on-film"
-    ]
+    ],
+    "synopsis": "After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original movie’s star, a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium.",
+    "language": "English"
   },
   {
     "id": "siff-film-center-nt-live-les-liaisons-dangereuses-2026-08-25",
     "venueId": "siff-film-center",
     "date": "2026-08-25",
     "title": "NT Live: Les Liaisons Dangereuses",
+    "director": "Marianne Elliott",
+    "year": 2026,
     "runtime": 180,
+    "country": "United Kingdom",
     "showtimes": [
       "6:30 PM"
     ],
@@ -364,12 +407,17 @@
     "venueId": "siff-uptown",
     "date": "2026-08-25",
     "title": "The Invite",
+    "director": "Olivia Wilde",
+    "year": 2026,
     "runtime": 107,
+    "country": "USA",
     "showtimes": [
       "7:15 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=2",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/the-invite",
+    "tags": [],
+    "synopsis": "Joe and Angela’s marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
+    "language": "English"
   },
   {
     "id": "beacon-mysterious-skin-2026-08-25",
@@ -382,13 +430,18 @@
     "url": "https://thebeacon.film/calendar/movie/mysterious-skin",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "At the age of eight, Kansas youngsters Neil and Brian played on the same little league baseball team. Now, ten years later, the two boys couldn’t be more…",
+    "director": "Gregg Araki",
+    "year": 2004,
+    "runtime": 105
   },
   {
     "id": "majestic-bay-the-odyssey-2026-08-26",
     "venueId": "majestic-bay",
     "date": "2026-08-26",
     "title": "The Odyssey",
+    "rating": "R",
     "showtimes": [
       "11:30 AM",
       "3:00 PM"
@@ -401,6 +454,7 @@
     "venueId": "majestic-bay",
     "date": "2026-08-26",
     "title": "Spider-Man: Brand New Day",
+    "rating": "PG-13",
     "showtimes": [
       "11:45 AM",
       "3:15 PM",
@@ -414,6 +468,7 @@
     "venueId": "majestic-bay",
     "date": "2026-08-26",
     "title": "The End of Oak Street",
+    "rating": "PG-13",
     "showtimes": [
       "12:00 PM",
       "3:30 PM",
@@ -427,25 +482,35 @@
     "venueId": "siff-uptown",
     "date": "2026-08-26",
     "title": "Tony",
+    "director": "Matt Johnson",
+    "year": 2026,
     "runtime": 106,
+    "country": "USA",
     "showtimes": [
       "4:00 PM",
       "7:15 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=3",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/tony",
+    "tags": [],
+    "synopsis": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
+    "language": "English"
   },
   {
     "id": "siff-uptown-the-invite-2026-08-26",
     "venueId": "siff-uptown",
     "date": "2026-08-26",
     "title": "The Invite",
+    "director": "Olivia Wilde",
+    "year": 2026,
     "runtime": 107,
+    "country": "USA",
     "showtimes": [
       "4:15 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=3",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/the-invite",
+    "tags": [],
+    "synopsis": "Joe and Angela’s marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
+    "language": "English"
   },
   {
     "id": "beacon-gandahar-2026-08-26",
@@ -458,29 +523,39 @@
     "url": "https://thebeacon.film/calendar/movie/gandahar",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "An entire civilization must confront its destiny in alternative-animation pioneer René Laloux’s final feature, a cult classic of mind-bending science fiction.…",
+    "director": "René Laloux",
+    "year": 1987,
+    "runtime": 83
   },
   {
     "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-26",
     "venueId": "siff-uptown",
     "date": "2026-08-26",
     "title": "Teenage Sex and Death at Camp Miasma",
-    "runtime": 112,
+    "director": "Jane Schoenbrun",
+    "year": 2026,
+    "runtime": 113,
+    "country": "USA",
     "format": "35mm",
     "showtimes": [
       "4:30 PM",
       "7:30 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=3",
+    "url": "https://www.siff.net/cinema/in-theaters/teenage-sex-and-death-at-camp-miasma",
     "tags": [
       "on-film"
-    ]
+    ],
+    "synopsis": "After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original movie’s star, a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium.",
+    "language": "English"
   },
   {
     "id": "majestic-bay-snakes-on-a-plane-2026-08-26",
     "venueId": "majestic-bay",
     "date": "2026-08-26",
     "title": "Snakes on a Plane",
+    "rating": "R",
     "showtimes": [
       "7:00 PM"
     ],
@@ -492,7 +567,10 @@
     "venueId": "siff-uptown",
     "date": "2026-08-26",
     "title": "Goldeneye",
+    "director": "Martin Campbell",
+    "year": 1995,
     "runtime": 130,
+    "country": "United Kingdom",
     "format": "35mm",
     "showtimes": [
       "7:00 PM"
@@ -507,15 +585,20 @@
     "venueId": "siff-downtown",
     "date": "2026-08-26",
     "title": "The Odyssey",
+    "director": "Christopher Nolan",
+    "year": 2026,
     "runtime": 172,
+    "country": "United Kingdom, USA",
     "format": "70mm",
     "showtimes": [
       "7:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=3",
+    "url": "https://www.siff.net/cinema/in-theaters/the-odyssey",
     "tags": [
       "on-film"
-    ]
+    ],
+    "synopsis": "A mythic action epic shot across the world bringing Homer’s foundational saga to screens, starring Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson and Lupita Nyong’o, with Zendaya and Charlize Theron.",
+    "language": "English"
   },
   {
     "id": "beacon-crocodile-dose-2026-08-26",
@@ -528,32 +611,46 @@
     "url": "https://thebeacon.film/calendar/movie/crocodile-dose",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "Ah, the most timeless struggles of youth: acquiring drugs and being obsessed with your ex in a very uncool way. In its radical look and form, CROCODILE DOSE is…",
+    "director": "Jason Waters",
+    "year": 2026,
+    "runtime": 70
   },
   {
     "id": "siff-uptown-the-samurai-and-the-prisoner-2026-08-27",
     "venueId": "siff-uptown",
     "date": "2026-08-27",
     "title": "The Samurai and the Prisoner",
+    "director": "Kiyoshi Kurosawa",
+    "year": 2026,
     "runtime": 147,
+    "country": "Japan",
     "showtimes": [
       "3:45 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=4",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/the-samurai-and-the-prisoner",
+    "tags": [],
+    "synopsis": "Based on Honobu Yonezawa's novel. Set in 16th century Japan, follows Lord Murashige Araki who, besieged in his castle, confronts mysterious crimes and allies with imprisoned strategist Kanbei Kuroda to uncover the truth.",
+    "language": "Japanese"
   },
   {
     "id": "siff-uptown-tony-2026-08-27",
     "venueId": "siff-uptown",
     "date": "2026-08-27",
     "title": "Tony",
+    "director": "Matt Johnson",
+    "year": 2026,
     "runtime": 106,
+    "country": "USA",
     "showtimes": [
       "4:00 PM",
       "7:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=4",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/tony",
+    "tags": [],
+    "synopsis": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
+    "language": "English"
   },
   {
     "id": "beacon-mysterious-skin-2026-08-27",
@@ -566,50 +663,69 @@
     "url": "https://thebeacon.film/calendar/movie/mysterious-skin",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "At the age of eight, Kansas youngsters Neil and Brian played on the same little league baseball team. Now, ten years later, the two boys couldn’t be more…",
+    "director": "Gregg Araki",
+    "year": 2004,
+    "runtime": 105
   },
   {
     "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-27",
     "venueId": "siff-uptown",
     "date": "2026-08-27",
     "title": "Teenage Sex and Death at Camp Miasma",
-    "runtime": 112,
+    "director": "Jane Schoenbrun",
+    "year": 2026,
+    "runtime": 113,
+    "country": "USA",
     "format": "35mm",
     "showtimes": [
       "4:30 PM",
       "7:30 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=4",
+    "url": "https://www.siff.net/cinema/in-theaters/teenage-sex-and-death-at-camp-miasma",
     "tags": [
       "on-film"
-    ]
+    ],
+    "synopsis": "After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original movie’s star, a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium.",
+    "language": "English"
   },
   {
     "id": "siff-downtown-the-odyssey-2026-08-27",
     "venueId": "siff-downtown",
     "date": "2026-08-27",
     "title": "The Odyssey",
+    "director": "Christopher Nolan",
+    "year": 2026,
     "runtime": 172,
+    "country": "United Kingdom, USA",
     "format": "70mm",
     "showtimes": [
       "7:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=4",
+    "url": "https://www.siff.net/cinema/in-theaters/the-odyssey",
     "tags": [
       "on-film"
-    ]
+    ],
+    "synopsis": "A mythic action epic shot across the world bringing Homer’s foundational saga to screens, starring Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson and Lupita Nyong’o, with Zendaya and Charlize Theron.",
+    "language": "English"
   },
   {
     "id": "siff-uptown-the-invite-2026-08-27",
     "venueId": "siff-uptown",
     "date": "2026-08-27",
     "title": "The Invite",
+    "director": "Olivia Wilde",
+    "year": 2026,
     "runtime": 107,
+    "country": "USA",
     "showtimes": [
       "7:15 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=4",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/the-invite",
+    "tags": [],
+    "synopsis": "Joe and Angela’s marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
+    "language": "English"
   },
   {
     "id": "beacon-cinema-2026-08-27",
@@ -622,7 +738,9 @@
     "url": "https://thebeacon.film/calendar/movie/blindfold",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "Totally FREE. No RSVP. First come, first admitted! Doors open 30 minutes before showtime. Welcome to Seattle's premiere \"blindfolded\" screening series! The…",
+    "director": "????"
   },
   {
     "id": "beacon-eyes-without-a-face-2026-08-28",
@@ -636,61 +754,85 @@
     "url": "https://thebeacon.film/calendar/movie/eyes-without-a-face",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "At his secluded château in the French countryside, a brilliant, obsessive doctor attempts a radical plastic surgery to restore the beauty of his daughter’s…",
+    "director": "Georges Franju",
+    "year": 1960,
+    "runtime": 84
   },
   {
     "id": "siff-uptown-american-doctor-2026-08-28",
     "venueId": "siff-uptown",
     "date": "2026-08-28",
     "title": "American Doctor",
+    "director": "Poh Si Teng",
+    "year": 2026,
     "runtime": 93,
+    "country": "USA, Palestine, Malaysia, Qatar",
     "showtimes": [
       "4:00 PM",
       "6:45 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=5",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/american-doctor",
+    "tags": [],
+    "synopsis": "Three courageous doctors—a Jewish orthopedic surgeon from North Carolina, a Zoroastrian trauma surgeon from California, and a Palestinian American ER specialist from Illinois—volunteer their services in Gaza, risking their lives to save others.",
+    "language": "English, Arabic, Hebrew"
   },
   {
     "id": "siff-uptown-tony-2026-08-28",
     "venueId": "siff-uptown",
     "date": "2026-08-28",
     "title": "Tony",
+    "director": "Matt Johnson",
+    "year": 2026,
     "runtime": 106,
+    "country": "USA",
     "showtimes": [
       "4:15 PM",
       "7:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=5",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/tony",
+    "tags": [],
+    "synopsis": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
+    "language": "English"
   },
   {
     "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-28",
     "venueId": "siff-uptown",
     "date": "2026-08-28",
     "title": "Teenage Sex and Death at Camp Miasma",
-    "runtime": 112,
+    "director": "Jane Schoenbrun",
+    "year": 2026,
+    "runtime": 113,
+    "country": "USA",
     "format": "35mm",
     "showtimes": [
       "4:30 PM",
       "7:30 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=5",
+    "url": "https://www.siff.net/cinema/in-theaters/teenage-sex-and-death-at-camp-miasma",
     "tags": [
       "on-film"
-    ]
+    ],
+    "synopsis": "After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original movie’s star, a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium.",
+    "language": "English"
   },
   {
     "id": "siff-film-center-bernstein-s-wall-2026-08-28",
     "venueId": "siff-film-center",
     "date": "2026-08-28",
     "title": "Bernstein's Wall",
+    "director": "Douglas Tirola",
+    "year": 2021,
     "runtime": 100,
+    "country": "USA",
     "showtimes": [
       "6:30 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=5",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/bernsteins-wall",
+    "tags": [],
+    "synopsis": "Perfectly timed after Spielberg’s recent remake of WEST SIDE STORY, this portrait of its composer Leonard Bernstein, conqueror of both Broadway and the concert hall, captures his genius and his voracious, even self-destructive, appetite for music and for life.",
+    "language": "English"
   },
   {
     "id": "beacon-crocodile-dose-2026-08-28",
@@ -703,81 +845,110 @@
     "url": "https://thebeacon.film/calendar/movie/crocodile-dose",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "Ah, the most timeless struggles of youth: acquiring drugs and being obsessed with your ex in a very uncool way. In its radical look and form, CROCODILE DOSE is…",
+    "director": "Jason Waters",
+    "year": 2026,
+    "runtime": 70
   },
   {
     "id": "siff-downtown-the-odyssey-2026-08-28",
     "venueId": "siff-downtown",
     "date": "2026-08-28",
     "title": "The Odyssey",
+    "director": "Christopher Nolan",
+    "year": 2026,
     "runtime": 172,
+    "country": "United Kingdom, USA",
     "format": "70mm",
     "showtimes": [
       "7:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=5",
+    "url": "https://www.siff.net/cinema/in-theaters/the-odyssey",
     "tags": [
       "on-film"
-    ]
+    ],
+    "synopsis": "A mythic action epic shot across the world bringing Homer’s foundational saga to screens, starring Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson and Lupita Nyong’o, with Zendaya and Charlize Theron.",
+    "language": "English"
   },
   {
     "id": "siff-uptown-american-doctor-2026-08-29",
     "venueId": "siff-uptown",
     "date": "2026-08-29",
     "title": "American Doctor",
+    "director": "Poh Si Teng",
+    "year": 2026,
     "runtime": 93,
+    "country": "USA, Palestine, Malaysia, Qatar",
     "showtimes": [
       "1:00 PM",
       "4:00 PM",
       "6:45 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=6",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/american-doctor",
+    "tags": [],
+    "synopsis": "Three courageous doctors—a Jewish orthopedic surgeon from North Carolina, a Zoroastrian trauma surgeon from California, and a Palestinian American ER specialist from Illinois—volunteer their services in Gaza, risking their lives to save others.",
+    "language": "English, Arabic, Hebrew"
   },
   {
     "id": "siff-uptown-tony-2026-08-29",
     "venueId": "siff-uptown",
     "date": "2026-08-29",
     "title": "Tony",
+    "director": "Matt Johnson",
+    "year": 2026,
     "runtime": 106,
+    "country": "USA",
     "showtimes": [
       "1:15 PM",
       "4:15 PM",
       "7:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=6",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/tony",
+    "tags": [],
+    "synopsis": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
+    "language": "English"
   },
   {
     "id": "siff-film-center-bernstein-s-wall-2026-08-29",
     "venueId": "siff-film-center",
     "date": "2026-08-29",
     "title": "Bernstein's Wall",
+    "director": "Douglas Tirola",
+    "year": 2021,
     "runtime": 100,
+    "country": "USA",
     "showtimes": [
       "1:30 PM",
       "4:15 PM",
       "7:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=6",
-    "tags": []
+    "url": "https://www.siff.net/cinema/in-theaters/bernsteins-wall",
+    "tags": [],
+    "synopsis": "Perfectly timed after Spielberg’s recent remake of WEST SIDE STORY, this portrait of its composer Leonard Bernstein, conqueror of both Broadway and the concert hall, captures his genius and his voracious, even self-destructive, appetite for music and for life.",
+    "language": "English"
   },
   {
     "id": "siff-uptown-teenage-sex-and-death-at-camp-miasma-2026-08-29",
     "venueId": "siff-uptown",
     "date": "2026-08-29",
     "title": "Teenage Sex and Death at Camp Miasma",
-    "runtime": 112,
+    "director": "Jane Schoenbrun",
+    "year": 2026,
+    "runtime": 113,
+    "country": "USA",
     "format": "35mm",
     "showtimes": [
       "1:30 PM",
       "4:30 PM",
       "7:30 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=6",
+    "url": "https://www.siff.net/cinema/in-theaters/teenage-sex-and-death-at-camp-miasma",
     "tags": [
       "on-film"
-    ]
+    ],
+    "synopsis": "After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original movie’s star, a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium.",
+    "language": "English"
   },
   {
     "id": "beacon-scalpel-2026-08-29",
@@ -790,23 +961,32 @@
     "url": "https://thebeacon.film/calendar/movie/scalpel",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "US television staple Robert Lansing stars as a deranged surgeon in this twisty-turny piece of psychosexual morbidity from BLOOD RAGE director John Grissmer.…",
+    "director": "John Grissmer",
+    "year": 1977,
+    "runtime": 95
   },
   {
     "id": "siff-downtown-the-odyssey-2026-08-29",
     "venueId": "siff-downtown",
     "date": "2026-08-29",
     "title": "The Odyssey",
+    "director": "Christopher Nolan",
+    "year": 2026,
     "runtime": 172,
+    "country": "United Kingdom, USA",
     "format": "70mm",
     "showtimes": [
       "3:00 PM",
       "7:00 PM"
     ],
-    "url": "https://www.siff.net/cinema?day=6",
+    "url": "https://www.siff.net/cinema/in-theaters/the-odyssey",
     "tags": [
       "on-film"
-    ]
+    ],
+    "synopsis": "A mythic action epic shot across the world bringing Homer’s foundational saga to screens, starring Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson and Lupita Nyong’o, with Zendaya and Charlize Theron.",
+    "language": "English"
   },
   {
     "id": "beacon-last-year-at-marienbad-2026-08-29",
@@ -819,7 +999,11 @@
     "url": "https://thebeacon.film/calendar/movie/last-year-at-marienbad",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "Variously pilloried and adulated in its time, and undeniably “one of the most influential movies ever made” [J. Hoberman, The Village Voice], Alain Resnais’s…",
+    "director": "Alain Resnais",
+    "year": 1961,
+    "runtime": 95
   },
   {
     "id": "beacon-a-king-in-new-york-2026-08-30",
@@ -832,7 +1016,11 @@
     "url": "https://thebeacon.film/calendar/movie/a-king-in-new-york",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "When the deposed European King Shadov (Charlie Chaplin) arrives in New York as a new exile, he realizes he must earn a living and accidentally discovers that…",
+    "director": "Charlie Chaplin",
+    "year": 1957,
+    "runtime": 110
   },
   {
     "id": "beacon-colossal-youth-2026-08-30",
@@ -845,7 +1033,11 @@
     "url": "https://thebeacon.film/calendar/movie/colossal-youth",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "One of the most important artists on the international film scene, Portuguese director Pedro Costa has steadily built an impressive body of work since the late…",
+    "director": "Pedro Costa",
+    "year": 2006,
+    "runtime": 155
   },
   {
     "id": "beacon-a-king-in-new-york-2026-08-31",
@@ -858,7 +1050,11 @@
     "url": "https://thebeacon.film/calendar/movie/a-king-in-new-york",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "When the deposed European King Shadov (Charlie Chaplin) arrives in New York as a new exile, he realizes he must earn a living and accidentally discovers that…",
+    "director": "Charlie Chaplin",
+    "year": 1957,
+    "runtime": 110
   },
   {
     "id": "beacon-last-year-at-marienbad-2026-08-31",
@@ -871,7 +1067,11 @@
     "url": "https://thebeacon.film/calendar/movie/last-year-at-marienbad",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "Variously pilloried and adulated in its time, and undeniably “one of the most influential movies ever made” [J. Hoberman, The Village Voice], Alain Resnais’s…",
+    "director": "Alain Resnais",
+    "year": 1961,
+    "runtime": 95
   },
   {
     "id": "beacon-last-year-at-marienbad-2026-09-01",
@@ -884,7 +1084,11 @@
     "url": "https://thebeacon.film/calendar/movie/last-year-at-marienbad",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "Variously pilloried and adulated in its time, and undeniably “one of the most influential movies ever made” [J. Hoberman, The Village Voice], Alain Resnais’s…",
+    "director": "Alain Resnais",
+    "year": 1961,
+    "runtime": 95
   },
   {
     "id": "beacon-the-saragossa-manuscript-2026-09-01",
@@ -897,7 +1101,11 @@
     "url": "https://thebeacon.film/calendar/movie/the-saragossa-manuscript",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "“Simultaneously horrific, erotic, and funny. This is one mother of a film,” rhapsodized David Lynch on Wojciech Has’s delirious counterculture classic. The…",
+    "director": "Wojciech Has",
+    "year": 1965,
+    "runtime": 183
   },
   {
     "id": "beacon-the-saragossa-manuscript-2026-09-02",
@@ -910,13 +1118,18 @@
     "url": "https://thebeacon.film/calendar/movie/the-saragossa-manuscript",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "“Simultaneously horrific, erotic, and funny. This is one mother of a film,” rhapsodized David Lynch on Wojciech Has’s delirious counterculture classic. The…",
+    "director": "Wojciech Has",
+    "year": 1965,
+    "runtime": 183
   },
   {
     "id": "majestic-bay-the-room-2026-09-02",
     "venueId": "majestic-bay",
     "date": "2026-09-02",
     "title": "The Room",
+    "rating": "R",
     "showtimes": [
       "7:00 PM"
     ],
@@ -934,7 +1147,11 @@
     "url": "https://thebeacon.film/calendar/movie/the-immortal-story",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "THE IMMORTAL STORY unfolds in 19th century Macao where the wealthy, powerful merchant Charles Clay has reached the end of his life’s brutally financial…",
+    "director": "Orson Welles",
+    "year": 1968,
+    "runtime": 70
   },
   {
     "id": "beacon-the-immortal-story-2026-09-03",
@@ -947,7 +1164,11 @@
     "url": "https://thebeacon.film/calendar/movie/the-immortal-story",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "THE IMMORTAL STORY unfolds in 19th century Macao where the wealthy, powerful merchant Charles Clay has reached the end of his life’s brutally financial…",
+    "director": "Orson Welles",
+    "year": 1968,
+    "runtime": 70
   },
   {
     "id": "beacon-the-saragossa-manuscript-2026-09-03",
@@ -960,7 +1181,11 @@
     "url": "https://thebeacon.film/calendar/movie/the-saragossa-manuscript",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "“Simultaneously horrific, erotic, and funny. This is one mother of a film,” rhapsodized David Lynch on Wojciech Has’s delirious counterculture classic. The…",
+    "director": "Wojciech Has",
+    "year": 1965,
+    "runtime": 183
   },
   {
     "id": "beacon-seconds-2026-09-04",
@@ -974,7 +1199,11 @@
     "url": "https://thebeacon.film/calendar/movie/seconds",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "Rock Hudson is a revelation in this sinister, science-fiction-inflected dispatch from the fractured 1960s. SECONDS, directed by John Frankenheimer, concerns a…",
+    "director": "John Frankenheimer",
+    "year": 1966,
+    "runtime": 107
   },
   {
     "id": "beacon-the-seattle-esperanto-society-presents-incubus-2026-09-04",
@@ -987,7 +1216,11 @@
     "url": "https://thebeacon.film/calendar/movie/the-seattle-esperanto-society-presents-incubus",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "If Ingmar Bergman directed an episode of \"The Outer Limits\", the result would be INCUBUS: a folk-horror treat starring William Shatner(!) that happens to be…",
+    "director": "Leslie Stevens",
+    "year": 1966,
+    "runtime": 74
   },
   {
     "id": "beacon-faceless-2026-09-05",
@@ -1000,7 +1233,11 @@
     "url": "https://thebeacon.film/calendar/movie/faceless",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "FACELESS is a big-budget Eurosleaze take on horror classic EYES WITHOUT A FACE from prolific genre madman Jess Franco (VAMPYROS LESBOS)—and it's just as great…",
+    "director": "Jesús Franco",
+    "year": 1988,
+    "runtime": 98
   },
   {
     "id": "beacon-mirror-2026-09-05",
@@ -1013,7 +1250,11 @@
     "url": "https://thebeacon.film/calendar/movie/mirror",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "A subtly ravishing passage through the halls of time and memory, this sublime reflection on twentieth-century Russian history by Andrei Tarkovsky is as much a…",
+    "director": "Andrei Tarkovsky",
+    "year": 1975,
+    "runtime": 107
   },
   {
     "id": "beacon-dodsworth-2026-09-06",
@@ -1026,7 +1267,11 @@
     "url": "https://thebeacon.film/calendar/movie/dodsworth",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "William Wyler’s magnificent adaptation of the 1936 novel by Sinclair Lewis is a film of remarkable emotional sophistication, starring Walter Huston as captain…",
+    "director": "William Wyler",
+    "year": 1936,
+    "runtime": 101
   },
   {
     "id": "beacon-celine-and-julie-go-boating-2026-09-06",
@@ -1039,7 +1284,11 @@
     "url": "https://thebeacon.film/calendar/movie/celine-and-julie-go-boating",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "A film of magic, curses, intimacy, giddy magnetism, and the macabre world of haunted dreams, it’s not hard to see why CELINE AND JULIE GO BOATING is Jacques…",
+    "director": "Jacques Rivette",
+    "year": 1974,
+    "runtime": 192
   },
   {
     "id": "beacon-five-minutes-to-live-2026-09-07",
@@ -1065,7 +1314,11 @@
     "url": "https://thebeacon.film/calendar/movie/dodsworth",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "William Wyler’s magnificent adaptation of the 1936 novel by Sinclair Lewis is a film of remarkable emotional sophistication, starring Walter Huston as captain…",
+    "director": "William Wyler",
+    "year": 1936,
+    "runtime": 101
   },
   {
     "id": "beacon-mirror-2026-09-08",
@@ -1078,7 +1331,11 @@
     "url": "https://thebeacon.film/calendar/movie/mirror",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "A subtly ravishing passage through the halls of time and memory, this sublime reflection on twentieth-century Russian history by Andrei Tarkovsky is as much a…",
+    "director": "Andrei Tarkovsky",
+    "year": 1975,
+    "runtime": 107
   },
   {
     "id": "beacon-mirror-2026-09-09",
@@ -1091,13 +1348,18 @@
     "url": "https://thebeacon.film/calendar/movie/mirror",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "A subtly ravishing passage through the halls of time and memory, this sublime reflection on twentieth-century Russian history by Andrei Tarkovsky is as much a…",
+    "director": "Andrei Tarkovsky",
+    "year": 1975,
+    "runtime": 107
   },
   {
     "id": "majestic-bay-lawrence-of-arabia-2026-09-09",
     "venueId": "majestic-bay",
     "date": "2026-09-09",
     "title": "Lawrence of Arabia",
+    "rating": "PG",
     "showtimes": [
       "6:00 PM"
     ],
@@ -1141,7 +1403,11 @@
     "url": "https://thebeacon.film/calendar/movie/mirror",
     "tags": [
       "repertory"
-    ]
+    ],
+    "synopsis": "A subtly ravishing passage through the halls of time and memory, this sublime reflection on twentieth-century Russian history by Andrei Tarkovsky is as much a…",
+    "director": "Andrei Tarkovsky",
+    "year": 1975,
+    "runtime": 107
   },
   {
     "id": "beacon-the-face-of-another-2026-09-11",
@@ -1266,6 +1532,7 @@
     "venueId": "majestic-bay",
     "date": "2026-09-16",
     "title": "A League of Their Own",
+    "rating": "PG",
     "showtimes": [
       "7:00 PM"
     ],
@@ -1433,6 +1700,7 @@
     "venueId": "majestic-bay",
     "date": "2026-09-23",
     "title": "Waterworld",
+    "rating": "PG-13",
     "showtimes": [
       "7:00 PM"
     ],
@@ -1587,6 +1855,7 @@
     "venueId": "majestic-bay",
     "date": "2026-09-30",
     "title": "Tremors",
+    "rating": "PG-13",
     "showtimes": [
       "7:00 PM"
     ],
@@ -1598,6 +1867,7 @@
     "venueId": "majestic-bay",
     "date": "2026-10-07",
     "title": "Love Jones",
+    "rating": "R",
     "showtimes": [
       "7:00 PM"
     ],

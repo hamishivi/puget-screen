@@ -205,6 +205,8 @@ a { color: inherit; }
 }
 .shows { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px dashed var(--line); }
 .show {
+  display: flex;
+  flex-direction: column;
   min-height: 196px;
   padding: 16px 18px 20px;
   border-right: 1px dashed var(--line);
@@ -341,6 +343,82 @@ a { color: inherit; }
 .screening-date { display: block; margin-top: 18px; color: var(--violet); font-size: 10px; font-weight: 700; text-transform: uppercase; }
 .showtimes { margin: 26px 0 0; font-size: 11px; font-weight: 600; letter-spacing: .025em; }
 .screening-date + .showtimes { margin-top: 4px; }
+.more-details {
+  margin-top: auto;
+  padding-top: 18px;
+  text-align: left;
+}
+.more-details summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  color: var(--violet);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  line-height: 1;
+  list-style: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.more-details summary::-webkit-details-marker { display: none; }
+.more-details summary::before {
+  display: inline-grid;
+  width: 14px;
+  height: 14px;
+  place-items: center;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  content: '+';
+  font-size: 10px;
+  line-height: 1;
+}
+.more-details[open] summary::before { content: '−'; }
+.details-panel {
+  margin-top: 13px;
+  padding-top: 13px;
+  border-top: 1px solid var(--violet);
+}
+.synopsis {
+  margin: 0;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 14px;
+  letter-spacing: -.008em;
+  line-height: 1.28;
+}
+.detail-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px 12px;
+  margin: 14px 0 0;
+}
+.detail-facts div { min-width: 0; }
+.detail-facts dt {
+  margin: 0 0 2px;
+  color: var(--violet);
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+.detail-facts dd {
+  margin: 0;
+  font-size: 9px;
+  letter-spacing: .015em;
+  line-height: 1.18;
+}
+.official-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--violet);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: .055em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.official-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .empty { padding: 80px 20px; border-top: 1px solid var(--line); text-align: center; }
 .empty strong { display: block; font-family: var(--font-display), Georgia, serif; font-size: 29px; font-weight: 400; }
 .empty span { display: block; margin-top: 9px; font-size: 10px; text-transform: uppercase; }

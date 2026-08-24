@@ -50,6 +50,8 @@ export type Listing = {
   year?: number;
   runtime?: number;
   country?: string;
+  rating?: string;
+  synopsis?: string;
   format?: '16mm' | '35mm' | '70mm' | 'DCP' | 'Digital' | 'Other';
   language?: string;
   subtitles?: string | false;

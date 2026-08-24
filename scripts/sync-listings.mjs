@@ -59,13 +59,27 @@ function parseNormalizedJson(payload, venue) {
 }
 
 function stripHtml(value = '') {
+  return decodeHtml(value.replace(/<[^>]+>/g, ' '))
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function decodeHtml(value = '') {
   return value
-    .replace(/<[^>]+>/g, ' ')
     .replaceAll('&amp;', '&')
     .replaceAll('&#39;', "'")
     .replaceAll('&quot;', '"')
-    .replace(/\s+/g, ' ')
-    .trim();
+    .replaceAll('&apos;', "'")
+    .replaceAll('&nbsp;', ' ')
+    .replaceAll('&rsquo;', '’')
+    .replaceAll('&lsquo;', '‘')
+    .replaceAll('&rdquo;', '”')
+    .replaceAll('&ldquo;', '“')
+    .replaceAll('&ndash;', '–')
+    .replaceAll('&mdash;', '—')
+    .replaceAll('&lt;', '<')
+    .replaceAll('&gt;', '>')
+    .replace(/&#(x?[0-9a-f]+);/gi, (_, code) => String.fromCodePoint(Number.parseInt(code.replace(/^x/i, ''), code.toLowerCase().startsWith('x') ? 16 : 10)));
 }
 
 function yearInCity() {
@@ -137,6 +151,7 @@ function parseVeeziHtml(html, venue) {
   for (const film of films) {
     const title = stripHtml(film.match(/<h3 class="title">([\s\S]*?)<\/h3>/i)?.[1]);
     if (!title) continue;
+    const rating = stripHtml(film.match(/<span class="censor">([\s\S]*?)<\/span>/i)?.[1]);
     const dates = film.split(/<div class="date-container">/i).slice(1);
     for (const dateBlock of dates) {
       const dateLabel = stripHtml(dateBlock.match(/<h4 class="date">([^<]+)<\/h4>/i)?.[1]);
@@ -149,6 +164,7 @@ function parseVeeziHtml(html, venue) {
         venueId: venue.id,
         date,
         title,
+        rating: rating || undefined,
         showtimes,
         url: href.replaceAll('&amp;', '&'),
         tags: [],
@@ -159,12 +175,7 @@ function parseVeeziHtml(html, venue) {
 }
 
 function decodeAttribute(value) {
-  return value
-    .replaceAll('&quot;', '"')
-    .replaceAll('&#39;', "'")
-    .replaceAll('&amp;', '&')
-    .replaceAll('&lt;', '<')
-    .replaceAll('&gt;', '>');
+  return decodeHtml(value);
 }
 
 function localDateTime(timestamp) {
@@ -197,30 +208,114 @@ function siffVenueId(name) {
 
 function parseSiffHtml(html, calendarUrl) {
   const records = [];
-  for (const match of html.matchAll(/data-screening="([^"]+)"/g)) {
-    const screening = JSON.parse(decodeAttribute(match[1]));
-    const timestamp = Number(screening.Showtime?.match(/\d+/)?.[0]);
-    const venueId = siffVenueId(screening.VenueName ?? '');
-    if (!timestamp || !venueId || !screening.EventName) continue;
-    const when = localDateTime(timestamp);
-    const declaredFormat = screening.EventName.match(/\((16mm|35mm|70mm)\)/i)?.[1]?.toLowerCase();
-    const title = screening.EventName.replace(/\s*\((?:16mm|35mm|70mm)\)\s*$/i, '');
-    const format = declaredFormat
-      ?? (title.includes('Camp Miasma') ? '35mm' : undefined)
-      ?? (title === 'The Odyssey' && venueId === 'siff-downtown' ? '70mm' : undefined);
-    records.push({
-      id: `${venueId}-${slug(title)}-${when.date}`,
-      venueId,
-      date: when.date,
-      title,
-      runtime: screening.LengthInMinutes || undefined,
-      format,
-      showtimes: [when.time],
-      url: calendarUrl,
-      tags: format ? ['on-film'] : [],
-    });
+  const items = html.split(/<div class="item">/i).slice(1);
+  for (const item of items) {
+    const detailHref = item.match(/href="(\/cinema\/in-theaters\/[^"]+)"/i)?.[1];
+    const detailUrl = detailHref ? new URL(detailHref, 'https://www.siff.net').href : calendarUrl;
+    const meta = stripHtml(item.match(/<p class="meta">([\s\S]*?)<\/p>/i)?.[1]);
+    const [country, yearText, , director] = meta.split('|').map((value) => value.trim());
+    for (const match of item.matchAll(/data-screening="([^"]+)"/g)) {
+      const screening = JSON.parse(decodeAttribute(match[1]));
+      const timestamp = Number(screening.Showtime?.match(/\d+/)?.[0]);
+      const venueId = siffVenueId(screening.VenueName ?? '');
+      if (!timestamp || !venueId || !screening.EventName) continue;
+      const when = localDateTime(timestamp);
+      const declaredFormat = screening.EventName.match(/\((16mm|35mm|70mm)\)/i)?.[1]?.toLowerCase();
+      const title = screening.EventName.replace(/\s*\((?:16mm|35mm|70mm)\)\s*$/i, '');
+      const format = declaredFormat
+        ?? (title.includes('Camp Miasma') ? '35mm' : undefined)
+        ?? (title === 'The Odyssey' && venueId === 'siff-downtown' ? '70mm' : undefined);
+      records.push({
+        id: `${venueId}-${slug(title)}-${when.date}`,
+        venueId,
+        date: when.date,
+        title,
+        director: director || undefined,
+        year: Number(yearText) || undefined,
+        runtime: screening.LengthInMinutes || undefined,
+        country: country || undefined,
+        format,
+        showtimes: [when.time],
+        url: detailUrl,
+        tags: format ? ['on-film'] : [],
+      });
+    }
   }
   return records;
+}
+
+function metaDescription(html) {
+  const value = html.match(/<meta[^>]+name="description"[^>]+content="([^"]*)"/i)?.[1]
+    ?? html.match(/<meta[^>]+content="([^"]*)"[^>]+name="description"/i)?.[1];
+  return value ? stripHtml(value) : undefined;
+}
+
+function durationMinutes(value = '') {
+  const match = value.match(/^PT(?:(\d+)H)?(?:(\d+)M)?$/i);
+  if (!match) return undefined;
+  return (Number(match[1]) * 60) + Number(match[2]);
+}
+
+function beaconDetails(html) {
+  const scripts = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/gi)];
+  for (const match of scripts) {
+    try {
+      const schema = JSON.parse(match[1]);
+      if (schema['@type'] !== 'Movie') continue;
+      return {
+        synopsis: metaDescription(html),
+        director: schema.director?.map?.((person) => person.name).filter(Boolean).join(', ') || undefined,
+        year: Number(schema.datePublished) || undefined,
+        runtime: durationMinutes(schema.duration),
+      };
+    } catch {
+      // Ignore unrelated or malformed structured-data blocks.
+    }
+  }
+  return { synopsis: metaDescription(html) };
+}
+
+function labeledSiffDetail(html, label) {
+  const escapedLabel = label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const value = html.match(new RegExp(`<span class="label">${escapedLabel}:<\\/span>\\s*<span class="detail"[^>]*>([\\s\\S]*?)<\\/span>`, 'i'))?.[1];
+  return value ? stripHtml(value) : undefined;
+}
+
+function siffDetails(html) {
+  return {
+    synopsis: metaDescription(html),
+    director: labeledSiffDetail(html, 'Director'),
+    country: labeledSiffDetail(html, 'Country'),
+    year: Number(labeledSiffDetail(html, 'Year')) || undefined,
+    runtime: Number.parseInt(labeledSiffDetail(html, 'Running Time') ?? '', 10) || undefined,
+    language: labeledSiffDetail(html, 'Language'),
+  };
+}
+
+async function enrichFilmDetails(listings) {
+  const today = localDateTime(Date.now()).date;
+  const cutoffDate = new Date(`${today}T12:00:00Z`);
+  cutoffDate.setUTCDate(cutoffDate.getUTCDate() + 14);
+  const cutoff = cutoffDate.toISOString().slice(0, 10);
+  const urls = [...new Set(listings
+    .filter((listing) => listing.date >= today && listing.date <= cutoff)
+    .map((listing) => listing.url)
+    .filter((url) => url.startsWith('https://thebeacon.film/calendar/movie/') || url.startsWith('https://www.siff.net/cinema/in-theaters/')))].slice(0, 40);
+  const detailsByUrl = new Map();
+  for (let index = 0; index < urls.length; index += 6) {
+    const batch = urls.slice(index, index + 6);
+    const results = await Promise.allSettled(batch.map(async (url) => {
+      const response = await fetch(url, { headers: { 'user-agent': 'PugetScreen/1.0 (+https://puget.ivison.id.au)' } });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const html = await response.text();
+      return [url, url.includes('thebeacon.film') ? beaconDetails(html) : siffDetails(html)];
+    }));
+    for (const result of results) {
+      if (result.status === 'fulfilled') detailsByUrl.set(...result.value);
+    }
+  }
+  console.log(`Enriched ${detailsByUrl.size} film detail pages`);
+  return listings.map((listing) => ({ ...listing, ...detailsByUrl.get(listing.url) }));
 }
 
 async function fetchSiffWeek(source) {
@@ -259,7 +354,8 @@ for (const venue of city.venues.filter((item) => item.enabled && item.source.typ
   }
 }
 
-const unique = [...new Map(synced.map((listing) => [listing.id, listing])).values()]
+const enriched = await enrichFilmDetails(synced);
+const unique = [...new Map(enriched.map((listing) => [listing.id, listing])).values()]
   .sort((a, b) => `${a.date}${a.showtimes?.[0]}`.localeCompare(`${b.date}${b.showtimes?.[0]}`));
 await writeFile(outputPath, `${JSON.stringify(unique, null, 2)}\n`);
 console.log(`Wrote ${unique.length} synced listings for ${city.name}.`);
