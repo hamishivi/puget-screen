@@ -13,7 +13,7 @@ The UI reads the active city profile, so venue names, links, neighborhoods, time
 
 ## Add or remove a venue
 
-Each venue lives in the active city JSON file. Set `enabled` to `false` to hide it without deleting its configuration. Sources can be:
+Each venue lives in the active city JSON file. Its optional `symbol` becomes the small venue emblem throughout the interface. Set `enabled` to `false` to hide it without deleting its configuration. Sources can be:
 
 - `manual` — listings live in `content/listings/manual.json`.
 - `ics` — set a public iCalendar URL; the scheduled sync imports it.

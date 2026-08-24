@@ -6,6 +6,7 @@ export type VenueSource =
 export type VenueConfig = {
   id: string;
   name: string;
+  symbol?: string;
   neighborhood: string;
   website: string;
   calendarUrl: string;

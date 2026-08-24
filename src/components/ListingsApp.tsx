@@ -19,6 +19,27 @@ function todayIn(timeZone: string) {
   return `${values.year}-${values.month}-${values.day}`;
 }
 
+function VenueMark({ symbol }: { symbol?: string }) {
+  return <span className="venue-mark" aria-hidden="true">{symbol ?? '•'}</span>;
+}
+
+function FormatMark({ format }: { format: NonNullable<Listing['format']> }) {
+  const labels: Record<NonNullable<Listing['format']>, string> = {
+    '16mm': '16',
+    '35mm': '35',
+    '70mm': '70',
+    DCP: 'DCP',
+    Digital: 'DIG',
+    Other: '•',
+  };
+
+  return (
+    <span className="format-mark" aria-label={`Presented in ${format}`} title={`Presented in ${format}`}>
+      {labels[format]}
+    </span>
+  );
+}
+
 export function ListingsApp({ config, listings }: { config: SiteConfig; listings: Listing[] }) {
   const [date, setDate] = useState(() => todayIn(config.city.timezone));
   const [onFilmOnly, setOnFilmOnly] = useState(false);
@@ -84,7 +105,12 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
             return (
               <section className="venue" key={venue.id}>
                 <div className="venue-title">
-                  <h2><a href={venue.calendarUrl} target="_blank" rel="noreferrer">{venue.name}</a></h2>
+                  <h2>
+                    <a href={venue.calendarUrl} target="_blank" rel="noreferrer">
+                      <VenueMark symbol={venue.symbol} />
+                      <span>{venue.name}</span>
+                    </a>
+                  </h2>
                   <span>{venue.neighborhood}</span>
                 </div>
                 <div className="shows">
@@ -92,7 +118,10 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
                     <article className="show" key={show.id}>
                       <p className="series">{show.series ?? show.tags?.join(' / ')}</p>
                       <h3><a href={show.url} target="_blank" rel="noreferrer">{show.title}</a></h3>
-                      <p className="film-details">{[show.director, show.year, show.runtime && `${show.runtime}m`, show.format].filter(Boolean).join(', ')}</p>
+                      <div className="film-details">
+                        <span>{[show.director, show.year, show.runtime && `${show.runtime}m`].filter(Boolean).join(', ')}</span>
+                        {show.format && <FormatMark format={show.format} />}
+                      </div>
                       {upcomingOnly && (
                         <time className="screening-date" dateTime={show.date}>
                           {new Intl.DateTimeFormat(config.city.locale, { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' }).format(new Date(`${show.date}T12:00:00Z`))}
@@ -129,7 +158,7 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
             <h2>Venues</h2>
             {enabledVenues.map((venue) => (
               <a href={venue.website} key={venue.id} target="_blank" rel="noreferrer">
-                <span>{venue.name}</span><span>↗</span>
+                <span className="venue-index-name"><VenueMark symbol={venue.symbol} />{venue.name}</span><span>↗</span>
               </a>
             ))}
           </section>
