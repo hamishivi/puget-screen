@@ -1,5 +1,50 @@
 [
   {
+    "id": "nwff-unstreamable-tekkonkinkreet-4k-restoration-2026-08-22",
+    "venueId": "nwff",
+    "date": "2026-08-22",
+    "title": "Unstreamable - Tekkonkinkreet (4K Restoration)",
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/unstreamable-tekkonkinkreet/",
+    "tags": []
+  },
+  {
+    "id": "nwff-three-bewildered-people-in-the-night-2026-08-22",
+    "venueId": "nwff",
+    "date": "2026-08-22",
+    "title": "Three Bewildered People In The Night",
+    "showtimes": [
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/three-bewildered-people-in-the-night/",
+    "tags": [],
+    "synopsis": "Long unseen, Gregg Araki's debut feature film Three Bewildered People In The Night is a stunning example of low/no budget DIY filmmaking at its best.",
+    "director": "Gregg Araki",
+    "year": 1987,
+    "country": "United States",
+    "runtime": 92,
+    "language": "English"
+  },
+  {
+    "id": "siff-film-center-nt-live-les-liaisons-dangereuses-2026-08-23",
+    "venueId": "siff-film-center",
+    "date": "2026-08-23",
+    "title": "NT Live: Les Liaisons Dangereuses",
+    "director": "Marianne Elliott",
+    "year": 2026,
+    "runtime": 180,
+    "country": "United Kingdom",
+    "showtimes": [
+      "2:00 PM"
+    ],
+    "url": "https://www.siff.net/cinema?day=0",
+    "tags": []
+  },
+  {
     "id": "siff-uptown-the-invite-2026-08-23",
     "venueId": "siff-uptown",
     "date": "2026-08-23",
@@ -14,6 +59,24 @@
     "url": "https://www.siff.net/cinema/in-theaters/the-invite",
     "tags": [],
     "synopsis": "Joe and Angela’s marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
+    "language": "English"
+  },
+  {
+    "id": "nwff-mysterious-skin-4k-restoration-2026-08-23",
+    "venueId": "nwff",
+    "date": "2026-08-23",
+    "title": "Mysterious Skin (4K Restoration)",
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/mysterious-skin-4k-restoration/",
+    "tags": [],
+    "synopsis": "At the age of eight, Kansas youngsters Neil and Brian played on the same little league baseball team. Now, ten years later, the two boys couldn’t be more different.",
+    "director": "Gregg Araki",
+    "year": 2004,
+    "country": "United States",
+    "runtime": 99,
     "language": "English"
   },
   {
@@ -32,6 +95,24 @@
     "url": "https://www.siff.net/cinema/in-theaters/tony",
     "tags": [],
     "synopsis": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
+    "language": "English"
+  },
+  {
+    "id": "nwff-three-bewildered-people-in-the-night-2026-08-23",
+    "venueId": "nwff",
+    "date": "2026-08-23",
+    "title": "Three Bewildered People In The Night",
+    "showtimes": [
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/three-bewildered-people-in-the-night/",
+    "tags": [],
+    "synopsis": "Long unseen, Gregg Araki's debut feature film Three Bewildered People In The Night is a stunning example of low/no budget DIY filmmaking at its best.",
+    "director": "Gregg Araki",
+    "year": 1987,
+    "country": "United States",
+    "runtime": 92,
     "language": "English"
   },
   {
@@ -403,6 +484,23 @@
     "tags": []
   },
   {
+    "id": "nwff-bottoms-2026-08-25",
+    "venueId": "nwff",
+    "date": "2026-08-25",
+    "title": "Bottoms",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/bottoms/",
+    "tags": [],
+    "synopsis": "In this refreshingly unique comedy, two girls, PJ and Josie, start a fight club as a way to lose their virginities to cheerleaders.",
+    "director": "Emma Seligman",
+    "year": 2023,
+    "country": "United States",
+    "runtime": 92,
+    "language": "English"
+  },
+  {
     "id": "siff-uptown-the-invite-2026-08-25",
     "venueId": "siff-uptown",
     "date": "2026-08-25",
@@ -601,6 +699,23 @@
     "language": "English"
   },
   {
+    "id": "nwff-welcome-to-the-dollhouse-2026-08-26",
+    "venueId": "nwff",
+    "date": "2026-08-26",
+    "title": "Welcome to The Dollhouse",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/welcome-to-the-dollhouse/",
+    "tags": [],
+    "synopsis": "An awkward seventh-grade struggles to cope with absent parents, snobbish class-mates, a smart older brother, and her own insecurities in suburban New Jersey",
+    "director": "Todd Solondz",
+    "year": 1996,
+    "country": "United States",
+    "runtime": 88,
+    "language": "English"
+  },
+  {
     "id": "beacon-crocodile-dose-2026-08-26",
     "venueId": "beacon",
     "date": "2026-08-26",
@@ -691,6 +806,18 @@
     "language": "English"
   },
   {
+    "id": "nwff-seattle-film-society-presents-locals-only-august-2026-2026-08-27",
+    "venueId": "nwff",
+    "date": "2026-08-27",
+    "title": "Seattle Film Society Presents Locals Only: August 2026",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/seattle-film-society-presents-locals-august-2026/",
+    "tags": [],
+    "synopsis": "Locals Only is a monthly screening event put on by the Seattle Film Society."
+  },
+  {
     "id": "siff-downtown-the-odyssey-2026-08-27",
     "venueId": "siff-downtown",
     "date": "2026-08-27",
@@ -725,6 +852,23 @@
     "url": "https://www.siff.net/cinema/in-theaters/the-invite",
     "tags": [],
     "synopsis": "Joe and Angela’s marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
+    "language": "English"
+  },
+  {
+    "id": "nwff-welcome-to-the-dollhouse-2026-08-27",
+    "venueId": "nwff",
+    "date": "2026-08-27",
+    "title": "Welcome to The Dollhouse",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/welcome-to-the-dollhouse/",
+    "tags": [],
+    "synopsis": "An awkward seventh-grade struggles to cope with absent parents, snobbish class-mates, a smart older brother, and her own insecurities in suburban New Jersey",
+    "director": "Todd Solondz",
+    "year": 1996,
+    "country": "United States",
+    "runtime": 88,
     "language": "English"
   },
   {
@@ -835,6 +979,23 @@
     "language": "English"
   },
   {
+    "id": "nwff-mysterious-skin-4k-restoration-2026-08-28",
+    "venueId": "nwff",
+    "date": "2026-08-28",
+    "title": "Mysterious Skin (4K Restoration)",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/mysterious-skin-4k-restoration/",
+    "tags": [],
+    "synopsis": "At the age of eight, Kansas youngsters Neil and Brian played on the same little league baseball team. Now, ten years later, the two boys couldn’t be more different.",
+    "director": "Gregg Araki",
+    "year": 2004,
+    "country": "United States",
+    "runtime": 99,
+    "language": "English"
+  },
+  {
     "id": "beacon-crocodile-dose-2026-08-28",
     "venueId": "beacon",
     "date": "2026-08-28",
@@ -869,6 +1030,23 @@
       "on-film"
     ],
     "synopsis": "A mythic action epic shot across the world bringing Homer’s foundational saga to screens, starring Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson and Lupita Nyong’o, with Zendaya and Charlize Theron.",
+    "language": "English"
+  },
+  {
+    "id": "nwff-three-bewildered-people-in-the-night-2026-08-28",
+    "venueId": "nwff",
+    "date": "2026-08-28",
+    "title": "Three Bewildered People In The Night",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/three-bewildered-people-in-the-night/",
+    "tags": [],
+    "synopsis": "Long unseen, Gregg Araki's debut feature film Three Bewildered People In The Night is a stunning example of low/no budget DIY filmmaking at its best.",
+    "director": "Gregg Araki",
+    "year": 1987,
+    "country": "United States",
+    "runtime": 92,
     "language": "English"
   },
   {
@@ -989,6 +1167,42 @@
     "language": "English"
   },
   {
+    "id": "nwff-mysterious-skin-4k-restoration-2026-08-29",
+    "venueId": "nwff",
+    "date": "2026-08-29",
+    "title": "Mysterious Skin (4K Restoration)",
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/mysterious-skin-4k-restoration/",
+    "tags": [],
+    "synopsis": "At the age of eight, Kansas youngsters Neil and Brian played on the same little league baseball team. Now, ten years later, the two boys couldn’t be more different.",
+    "director": "Gregg Araki",
+    "year": 2004,
+    "country": "United States",
+    "runtime": 99,
+    "language": "English"
+  },
+  {
+    "id": "nwff-three-bewildered-people-in-the-night-2026-08-29",
+    "venueId": "nwff",
+    "date": "2026-08-29",
+    "title": "Three Bewildered People In The Night",
+    "showtimes": [
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/three-bewildered-people-in-the-night/",
+    "tags": [],
+    "synopsis": "Long unseen, Gregg Araki's debut feature film Three Bewildered People In The Night is a stunning example of low/no budget DIY filmmaking at its best.",
+    "director": "Gregg Araki",
+    "year": 1987,
+    "country": "United States",
+    "runtime": 92,
+    "language": "English"
+  },
+  {
     "id": "beacon-last-year-at-marienbad-2026-08-29",
     "venueId": "beacon",
     "date": "2026-08-29",
@@ -1023,6 +1237,24 @@
     "runtime": 110
   },
   {
+    "id": "nwff-mysterious-skin-4k-restoration-2026-08-30",
+    "venueId": "nwff",
+    "date": "2026-08-30",
+    "title": "Mysterious Skin (4K Restoration)",
+    "showtimes": [
+      "3:30 PM",
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/mysterious-skin-4k-restoration/",
+    "tags": [],
+    "synopsis": "At the age of eight, Kansas youngsters Neil and Brian played on the same little league baseball team. Now, ten years later, the two boys couldn’t be more different.",
+    "director": "Gregg Araki",
+    "year": 2004,
+    "country": "United States",
+    "runtime": 99,
+    "language": "English"
+  },
+  {
     "id": "beacon-colossal-youth-2026-08-30",
     "venueId": "beacon",
     "date": "2026-08-30",
@@ -1038,6 +1270,23 @@
     "director": "Pedro Costa",
     "year": 2006,
     "runtime": 155
+  },
+  {
+    "id": "nwff-three-bewildered-people-in-the-night-2026-08-30",
+    "venueId": "nwff",
+    "date": "2026-08-30",
+    "title": "Three Bewildered People In The Night",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/three-bewildered-people-in-the-night/",
+    "tags": [],
+    "synopsis": "Long unseen, Gregg Araki's debut feature film Three Bewildered People In The Night is a stunning example of low/no budget DIY filmmaking at its best.",
+    "director": "Gregg Araki",
+    "year": 1987,
+    "country": "United States",
+    "runtime": 92,
+    "language": "English"
   },
   {
     "id": "beacon-a-king-in-new-york-2026-08-31",
@@ -1154,6 +1403,23 @@
     "runtime": 70
   },
   {
+    "id": "nwff-sleepbomb-presents-the-cabinet-of-dr-caligari-2026-09-02",
+    "venueId": "nwff",
+    "date": "2026-09-02",
+    "title": "Sleepbomb Presents: The Cabinet of Dr. Caligari",
+    "showtimes": [
+      "8:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/sleepbomb-presents-the-cabinet-of-dr-caligari/",
+    "tags": [],
+    "synopsis": "Northwest Film Forum is excited to present a screening of The Cabinet of Dr. Caligari with a live score from San Francisco's Sleepbomb.",
+    "director": "Robert Wiene",
+    "year": 1920,
+    "country": "Germany",
+    "runtime": 77,
+    "language": "Silent with a live score!"
+  },
+  {
     "id": "beacon-the-immortal-story-2026-09-03",
     "venueId": "beacon",
     "date": "2026-09-03",
@@ -1169,6 +1435,30 @@
     "director": "Orson Welles",
     "year": 1968,
     "runtime": 70
+  },
+  {
+    "id": "nwff-truth-to-fiction-baby-doe-2026-09-03",
+    "venueId": "nwff",
+    "date": "2026-09-03",
+    "title": "Truth To Fiction: Baby Doe",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/truth-to-fiction-baby-doe/",
+    "tags": [],
+    "synopsis": "Facing a possible life sentence, Gail must confront the weight of societal and religious pressures—and her own long-buried shame—to ﬁght for her freedom."
+  },
+  {
+    "id": "nwff-the-best-of-betty-boop-2026-09-03",
+    "venueId": "nwff",
+    "date": "2026-09-03",
+    "title": "The Best of Betty Boop!",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/the-best-of-betty-boop/",
+    "tags": [],
+    "synopsis": "Max Fleischer's 'Betty Boop' is back on the big screen with newly restored cartoons in 4K resolution to celebrate 'The Queen of the Animated Screen'."
   },
   {
     "id": "beacon-the-saragossa-manuscript-2026-09-03",
@@ -1240,6 +1530,42 @@
     "runtime": 98
   },
   {
+    "id": "nwff-boorman-and-the-devil-2026-09-05",
+    "venueId": "nwff",
+    "date": "2026-09-05",
+    "title": "Boorman and The Devil",
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/boorman-the-devil/",
+    "tags": [],
+    "synopsis": "Boorman And The Devil details the ambitions of director John Boorman and his team as they made one of the most infamous disasters in Hollywood history.",
+    "director": "David Kittredge",
+    "year": 2025,
+    "country": "United States",
+    "runtime": 112,
+    "language": "English"
+  },
+  {
+    "id": "nwff-exorcist-ii-the-heretic-2026-09-05",
+    "venueId": "nwff",
+    "date": "2026-09-05",
+    "title": "Exorcist II: The Heretic",
+    "showtimes": [
+      "4:15 PM",
+      "7:15 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/exorcist-ii-heretic/",
+    "tags": [],
+    "synopsis": "Boorman And The Devil details the ambitions of director John Boorman and his team as they made one of the most infamous disasters in Hollywood history.",
+    "director": "John Boorman",
+    "year": 1977,
+    "country": "United States",
+    "runtime": 118,
+    "language": "English"
+  },
+  {
     "id": "beacon-mirror-2026-09-05",
     "venueId": "beacon",
     "date": "2026-09-05",
@@ -1272,6 +1598,42 @@
     "director": "William Wyler",
     "year": 1936,
     "runtime": 101
+  },
+  {
+    "id": "nwff-boorman-and-the-devil-2026-09-06",
+    "venueId": "nwff",
+    "date": "2026-09-06",
+    "title": "Boorman and The Devil",
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/boorman-the-devil/",
+    "tags": [],
+    "synopsis": "Boorman And The Devil details the ambitions of director John Boorman and his team as they made one of the most infamous disasters in Hollywood history.",
+    "director": "David Kittredge",
+    "year": 2025,
+    "country": "United States",
+    "runtime": 112,
+    "language": "English"
+  },
+  {
+    "id": "nwff-exorcist-ii-the-heretic-2026-09-06",
+    "venueId": "nwff",
+    "date": "2026-09-06",
+    "title": "Exorcist II: The Heretic",
+    "showtimes": [
+      "4:15 PM",
+      "7:15 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/exorcist-ii-heretic/",
+    "tags": [],
+    "synopsis": "Boorman And The Devil details the ambitions of director John Boorman and his team as they made one of the most infamous disasters in Hollywood history.",
+    "director": "John Boorman",
+    "year": 1977,
+    "country": "United States",
+    "runtime": 118,
+    "language": "English"
   },
   {
     "id": "beacon-celine-and-julie-go-boating-2026-09-06",
@@ -1393,6 +1755,18 @@
     ]
   },
   {
+    "id": "nwff-the-best-of-betty-boop-2026-09-10",
+    "venueId": "nwff",
+    "date": "2026-09-10",
+    "title": "The Best of Betty Boop!",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/the-best-of-betty-boop/",
+    "tags": [],
+    "synopsis": "Max Fleischer's 'Betty Boop' is back on the big screen with newly restored cartoons in 4K resolution to celebrate 'The Queen of the Animated Screen'."
+  },
+  {
     "id": "beacon-mirror-2026-09-10",
     "venueId": "beacon",
     "date": "2026-09-10",
@@ -1424,6 +1798,17 @@
     ]
   },
   {
+    "id": "nwff-the-end-of-summer-2026-09-11",
+    "venueId": "nwff",
+    "date": "2026-09-11",
+    "title": "The End of Summer",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/the-end-of-summer/",
+    "tags": []
+  },
+  {
     "id": "beacon-invasion-2026-09-11",
     "venueId": "beacon",
     "date": "2026-09-11",
@@ -1437,6 +1822,41 @@
     ]
   },
   {
+    "id": "nwff-once-upon-a-time-in-seattle-2026-09-11",
+    "venueId": "nwff",
+    "date": "2026-09-11",
+    "title": "Once Upon a Time In Seattle",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/once-upon-time-seattle/",
+    "tags": []
+  },
+  {
+    "id": "nwff-the-end-of-summer-2026-09-12",
+    "venueId": "nwff",
+    "date": "2026-09-12",
+    "title": "The End of Summer",
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/the-end-of-summer/",
+    "tags": []
+  },
+  {
+    "id": "nwff-once-upon-a-time-in-seattle-2026-09-12",
+    "venueId": "nwff",
+    "date": "2026-09-12",
+    "title": "Once Upon a Time In Seattle",
+    "showtimes": [
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/once-upon-time-seattle/",
+    "tags": []
+  },
+  {
     "id": "beacon-the-little-foxes-2026-09-13",
     "venueId": "beacon",
     "date": "2026-09-13",
@@ -1448,6 +1868,29 @@
     "tags": [
       "repertory"
     ]
+  },
+  {
+    "id": "nwff-the-end-of-summer-2026-09-13",
+    "venueId": "nwff",
+    "date": "2026-09-13",
+    "title": "The End of Summer",
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/the-end-of-summer/",
+    "tags": []
+  },
+  {
+    "id": "nwff-sfcs-at-10-the-history-of-the-seattle-mariners-2026-09-13",
+    "venueId": "nwff",
+    "date": "2026-09-13",
+    "title": "SFCS at 10: The History of The Seattle Mariners",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/sfcs-10-mariners/",
+    "tags": []
   },
   {
     "id": "beacon-capone-cries-a-lot-2026-09-13",
@@ -1528,6 +1971,17 @@
     ]
   },
   {
+    "id": "nwff-wtf-with-stuff-neptune-frost-2026-09-16",
+    "venueId": "nwff",
+    "date": "2026-09-16",
+    "title": "WTF with STUFF - Neptune Frost",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/wtf-with-stuff-neptune-frost/",
+    "tags": []
+  },
+  {
     "id": "majestic-bay-a-league-of-their-own-2026-09-16",
     "venueId": "majestic-bay",
     "date": "2026-09-16",
@@ -1537,6 +1991,28 @@
       "7:00 PM"
     ],
     "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "nwff-barbara-forever-2026-09-16",
+    "venueId": "nwff",
+    "date": "2026-09-16",
+    "title": "Barbara Forever",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/barbara-forever/",
+    "tags": []
+  },
+  {
+    "id": "nwff-barbara-forever-2026-09-17",
+    "venueId": "nwff",
+    "date": "2026-09-17",
+    "title": "Barbara Forever",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/barbara-forever/",
     "tags": []
   },
   {
@@ -1605,6 +2081,39 @@
     ]
   },
   {
+    "id": "nwff-local-sightings-2026-sugarfly-2026-09-19",
+    "venueId": "nwff",
+    "date": "2026-09-19",
+    "title": "Local Sightings 2026 – Sugarfly",
+    "showtimes": [
+      "4:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-sugarfly/",
+    "tags": []
+  },
+  {
+    "id": "nwff-local-sightings-2026-the-life-we-leave-2026-09-19",
+    "venueId": "nwff",
+    "date": "2026-09-19",
+    "title": "Local Sightings 2026 – The Life We Leave",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-feature-lifeweleave/",
+    "tags": []
+  },
+  {
+    "id": "nwff-local-sightings-2026-like-a-local-shorts-2026-09-19",
+    "venueId": "nwff",
+    "date": "2026-09-19",
+    "title": "Local Sightings 2026 – Like a Local (Shorts)",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-like-a-local/",
+    "tags": []
+  },
+  {
     "id": "beacon-the-best-years-of-our-lives-2026-09-20",
     "venueId": "beacon",
     "date": "2026-09-20",
@@ -1618,6 +2127,17 @@
     ]
   },
   {
+    "id": "nwff-local-sightings-2026-into-the-unknown-my-cancer-story-2026-09-20",
+    "venueId": "nwff",
+    "date": "2026-09-20",
+    "title": "Local Sightings 2026 – Into the Unknown: My Cancer Story",
+    "showtimes": [
+      "4:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-unknown-cancer-story/",
+    "tags": []
+  },
+  {
     "id": "beacon-samba-traor-2026-09-20",
     "venueId": "beacon",
     "date": "2026-09-20",
@@ -1629,6 +2149,28 @@
     "tags": [
       "repertory"
     ]
+  },
+  {
+    "id": "nwff-local-sightings-2026-through-my-board-2026-09-20",
+    "venueId": "nwff",
+    "date": "2026-09-20",
+    "title": "Local Sightings 2026 – Through My Board",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-board/",
+    "tags": []
+  },
+  {
+    "id": "nwff-local-sightings-2026-ways-of-seeing-shorts-2026-09-20",
+    "venueId": "nwff",
+    "date": "2026-09-20",
+    "title": "Local Sightings 2026 – Ways of Seeing (Shorts)",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-ways-of-seeing/",
+    "tags": []
   },
   {
     "id": "beacon-the-best-years-of-our-lives-2026-09-21",
@@ -1696,6 +2238,17 @@
     ]
   },
   {
+    "id": "nwff-local-sightings-2026-creature-feature-shorts-2026-09-23",
+    "venueId": "nwff",
+    "date": "2026-09-23",
+    "title": "Local Sightings 2026 – Creature Feature (Shorts)",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-creature-feature/",
+    "tags": []
+  },
+  {
     "id": "majestic-bay-waterworld-2026-09-23",
     "venueId": "majestic-bay",
     "date": "2026-09-23",
@@ -1705,6 +2258,17 @@
       "7:00 PM"
     ],
     "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "nwff-local-sightings-2026-origin-story-shorts-2026-09-23",
+    "venueId": "nwff",
+    "date": "2026-09-23",
+    "title": "Local Sightings 2026 – Origin Story (Shorts)",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-origin-story/",
     "tags": []
   },
   {
@@ -1734,6 +2298,28 @@
     ]
   },
   {
+    "id": "nwff-local-sightings-2026-life-in-the-sound-2026-09-24",
+    "venueId": "nwff",
+    "date": "2026-09-24",
+    "title": "Local Sightings 2026 – Life in The Sound",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-life-in-the-sound/",
+    "tags": []
+  },
+  {
+    "id": "nwff-local-sightings-2026-lenses-experimental-shorts-2026-09-24",
+    "venueId": "nwff",
+    "date": "2026-09-24",
+    "title": "Local Sightings 2026 – Lenses (Experimental Shorts)",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-lenses-experimental-shorts/",
+    "tags": []
+  },
+  {
     "id": "beacon-l-immortelle-2026-09-24",
     "venueId": "beacon",
     "date": "2026-09-24",
@@ -1760,6 +2346,28 @@
     ]
   },
   {
+    "id": "nwff-local-sightings-2026-the-great-outdoors-shorts-2026-09-25",
+    "venueId": "nwff",
+    "date": "2026-09-25",
+    "title": "Local Sightings 2026 – The Great Outdoors (Shorts)",
+    "showtimes": [
+      "4:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-the-great-outdoors/",
+    "tags": []
+  },
+  {
+    "id": "nwff-local-sightings-2026-life-lines-shorts-2026-09-25",
+    "venueId": "nwff",
+    "date": "2026-09-25",
+    "title": "Local Sightings 2026 – Life Lines (Shorts)",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-life-lines-shorts/",
+    "tags": []
+  },
+  {
     "id": "beacon-l-immortelle-2026-09-25",
     "venueId": "beacon",
     "date": "2026-09-25",
@@ -1771,6 +2379,17 @@
     "tags": [
       "repertory"
     ]
+  },
+  {
+    "id": "nwff-local-sightings-2026-assets-liabilities-2026-09-25",
+    "venueId": "nwff",
+    "date": "2026-09-25",
+    "title": "Local Sightings 2026 – Assets & Liabilities",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-assets-liabilities/",
+    "tags": []
   },
   {
     "id": "beacon-synecdoche-new-york-2026-09-25",
@@ -1786,6 +2405,50 @@
     ]
   },
   {
+    "id": "nwff-local-sightings-2026-queer-as-in-shorts-2026-09-25",
+    "venueId": "nwff",
+    "date": "2026-09-25",
+    "title": "Local Sightings 2026 – Queer As In (Shorts)",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-queer-as-in/",
+    "tags": []
+  },
+  {
+    "id": "nwff-local-sightings-2026-dad-genes-2026-09-26",
+    "venueId": "nwff",
+    "date": "2026-09-26",
+    "title": "Local Sightings 2026 – Dad Genes",
+    "showtimes": [
+      "4:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-dad-genes/",
+    "tags": []
+  },
+  {
+    "id": "nwff-local-sightings-2026-our-land-shorts-2026-09-26",
+    "venueId": "nwff",
+    "date": "2026-09-26",
+    "title": "Local Sightings 2026 – Our Land (Shorts)",
+    "showtimes": [
+      "4:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-our-land-shorts/",
+    "tags": []
+  },
+  {
+    "id": "nwff-local-sightings-2026-beau-ideal-2026-09-26",
+    "venueId": "nwff",
+    "date": "2026-09-26",
+    "title": "Local Sightings 2026 – Beau Ideal",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-beau-ideal/",
+    "tags": []
+  },
+  {
     "id": "beacon-extraordinary-stories-2026-09-26",
     "venueId": "beacon",
     "date": "2026-09-26",
@@ -1797,6 +2460,17 @@
     "tags": [
       "repertory"
     ]
+  },
+  {
+    "id": "nwff-local-sightings-2026-the-female-gaze-shorts-2026-09-26",
+    "venueId": "nwff",
+    "date": "2026-09-26",
+    "title": "Local Sightings 2026 – The Female Gaze (Shorts)",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/local-sightings-2026-female-gaze/",
+    "tags": []
   },
   {
     "id": "beacon-the-heiress-2026-09-27",
@@ -1851,6 +2525,28 @@
     ]
   },
   {
+    "id": "nwff-the-incredibly-true-adventure-of-two-girls-in-love-2026-09-29",
+    "venueId": "nwff",
+    "date": "2026-09-29",
+    "title": "The Incredibly True Adventure of Two Girls in Love",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/the-incredibly-true-adventure-of-two-girls-in-love/",
+    "tags": []
+  },
+  {
+    "id": "nwff-equinox-flower-2026-09-30",
+    "venueId": "nwff",
+    "date": "2026-09-30",
+    "title": "Equinox Flower",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/equinox-flower/",
+    "tags": []
+  },
+  {
     "id": "majestic-bay-tremors-2026-09-30",
     "venueId": "majestic-bay",
     "date": "2026-09-30",
@@ -1863,6 +2559,142 @@
     "tags": []
   },
   {
+    "id": "nwff-truth-to-fiction-the-history-of-concrete-2026-10-01",
+    "venueId": "nwff",
+    "date": "2026-10-01",
+    "title": "Truth To Fiction: The History of Concrete",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/truth-to-fiction-the-history-of-concrete/",
+    "tags": []
+  },
+  {
+    "id": "nwff-equinox-flower-2026-10-01",
+    "venueId": "nwff",
+    "date": "2026-10-01",
+    "title": "Equinox Flower",
+    "showtimes": [
+      "7:15 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/equinox-flower/",
+    "tags": []
+  },
+  {
+    "id": "nwff-the-history-of-concrete-2026-10-02",
+    "venueId": "nwff",
+    "date": "2026-10-02",
+    "title": "The History of Concrete",
+    "showtimes": [
+      "5:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/the-history-of-concrete/",
+    "tags": []
+  },
+  {
+    "id": "nwff-chronovisor-2026-10-02",
+    "venueId": "nwff",
+    "date": "2026-10-02",
+    "title": "Chronovisor",
+    "showtimes": [
+      "5:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/chronovisor/",
+    "tags": []
+  },
+  {
+    "id": "nwff-the-history-of-concrete-2026-10-03",
+    "venueId": "nwff",
+    "date": "2026-10-03",
+    "title": "The History of Concrete",
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/the-history-of-concrete/",
+    "tags": []
+  },
+  {
+    "id": "nwff-chronovisor-2026-10-03",
+    "venueId": "nwff",
+    "date": "2026-10-03",
+    "title": "Chronovisor",
+    "showtimes": [
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/chronovisor/",
+    "tags": []
+  },
+  {
+    "id": "nwff-the-history-of-concrete-2026-10-04",
+    "venueId": "nwff",
+    "date": "2026-10-04",
+    "title": "The History of Concrete",
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/the-history-of-concrete/",
+    "tags": []
+  },
+  {
+    "id": "nwff-chronovisor-2026-10-04",
+    "venueId": "nwff",
+    "date": "2026-10-04",
+    "title": "Chronovisor",
+    "showtimes": [
+      "4:30 PM",
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/chronovisor/",
+    "tags": []
+  },
+  {
+    "id": "nwff-the-history-of-concrete-2026-10-05",
+    "venueId": "nwff",
+    "date": "2026-10-05",
+    "title": "The History of Concrete",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/the-history-of-concrete/",
+    "tags": []
+  },
+  {
+    "id": "nwff-chronovisor-2026-10-05",
+    "venueId": "nwff",
+    "date": "2026-10-05",
+    "title": "Chronovisor",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/chronovisor/",
+    "tags": []
+  },
+  {
+    "id": "nwff-the-history-of-concrete-2026-10-06",
+    "venueId": "nwff",
+    "date": "2026-10-06",
+    "title": "The History of Concrete",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/the-history-of-concrete/",
+    "tags": []
+  },
+  {
+    "id": "nwff-chronovisor-2026-10-06",
+    "venueId": "nwff",
+    "date": "2026-10-06",
+    "title": "Chronovisor",
+    "showtimes": [
+      "7:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/chronovisor/",
+    "tags": []
+  },
+  {
     "id": "majestic-bay-love-jones-2026-10-07",
     "venueId": "majestic-bay",
     "date": "2026-10-07",
@@ -1872,6 +2704,52 @@
       "7:00 PM"
     ],
     "url": "https://ticketing.useast.veezi.com/sessions/qnxpcc571jey8whdwrczs2c7g8?siteToken=qnxpcc571jey8whdwrczs2c7g8",
+    "tags": []
+  },
+  {
+    "id": "nwff-an-autumn-afternoon-2026-10-09",
+    "venueId": "nwff",
+    "date": "2026-10-09",
+    "title": "An Autumn Afternoon",
+    "showtimes": [
+      "8:30 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/an-autumn-afternoon/",
+    "tags": []
+  },
+  {
+    "id": "nwff-an-autumn-afternoon-2026-10-10",
+    "venueId": "nwff",
+    "date": "2026-10-10",
+    "title": "An Autumn Afternoon",
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/an-autumn-afternoon/",
+    "tags": []
+  },
+  {
+    "id": "nwff-an-autumn-afternoon-2026-10-11",
+    "venueId": "nwff",
+    "date": "2026-10-11",
+    "title": "An Autumn Afternoon",
+    "showtimes": [
+      "4:00 PM",
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/an-autumn-afternoon/",
+    "tags": []
+  },
+  {
+    "id": "nwff-sfcs-at-10-green-room-2026-10-14",
+    "venueId": "nwff",
+    "date": "2026-10-14",
+    "title": "SFCS at 10: Green Room",
+    "showtimes": [
+      "7:00 PM"
+    ],
+    "url": "https://nwfilmforum.org/films/sfcs-10-green-room/",
     "tags": []
   }
 ]

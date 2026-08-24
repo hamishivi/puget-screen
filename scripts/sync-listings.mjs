@@ -100,6 +100,17 @@ function calendarDate(value) {
   return `${yearInCity()}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
 }
 
+function nwffCalendarDate(monthName, day, weekStart) {
+  const monthNames = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
+  const normalizedMonth = monthName.toLowerCase();
+  const month = monthNames.findIndex((name) => name.startsWith(normalizedMonth));
+  if (month < 0 || !day) return '';
+  const start = new Date(`${weekStart}T12:00:00Z`);
+  const candidates = [-1, 0, 1].map((offset) => new Date(Date.UTC(start.getUTCFullYear() + offset, month, day, 12)));
+  const nearest = candidates.sort((a, b) => Math.abs(a - start) - Math.abs(b - start))[0];
+  return nearest.toISOString().slice(0, 10);
+}
+
 function displayTitle(value) {
   if (value !== value.toUpperCase()) return value;
   return value.toLocaleLowerCase().replace(/(^|[\s:–—/-])(\p{L})/gu, (_, lead, letter) => `${lead}${letter.toLocaleUpperCase()}`);
@@ -172,6 +183,43 @@ function parseVeeziHtml(html, venue) {
     }
   }
   return records;
+}
+
+function parseNwffHtml(html, venue, weekStart) {
+  // NWFF's `start` query names the Sunday, but its returned grid runs Saturday–Friday.
+  const weekBeginning = new Date(`${weekStart}T12:00:00Z`);
+  weekBeginning.setUTCDate(weekBeginning.getUTCDate() - 1);
+  const firstDate = weekBeginning.toISOString().slice(0, 10);
+  const weekEnd = new Date(weekBeginning);
+  weekEnd.setUTCDate(weekEnd.getUTCDate() + 7);
+  const exclusiveEnd = weekEnd.toISOString().slice(0, 10);
+  const records = [];
+  const items = html.split(/<div class="preview-wrap" data-calendar-item/i).slice(1);
+  for (const item of items) {
+    const attributes = item.slice(0, item.indexOf('>'));
+    if (!/\bdata-type-film\b/i.test(attributes)) continue;
+    const href = item.match(/<a\s+href="([^"]+)"\s+class="preview preview--film"/i)?.[1];
+    const schedule = item.match(/preview__slide__top__text">\s*[A-Za-z]{3}\s+([A-Za-z]{3})\s+(\d{1,2})<br>\s*([\s\S]*?)<\/div>/i);
+    const title = stripHtml(item.match(/preview__slide__bottom__title">([\s\S]*?)<\/h1>/i)?.[1]);
+    if (!href || !schedule || !title) continue;
+    const date = nwffCalendarDate(schedule[1], Number(schedule[2]), weekStart);
+    if (date < firstDate || date >= exclusiveEnd) continue;
+    const showtimes = stripHtml(schedule[3])
+      .split(/\s*,\s*/)
+      .filter((time) => time && !/all day/i.test(time))
+      .map((time) => time.replace(/^(\d{1,2})\.(\d{2})\s*(am|pm)$/i, '$1:$2 $3').toUpperCase());
+    if (!showtimes.length) continue;
+    records.push({
+      id: `${venue.id}-${slug(title)}-${date}`,
+      venueId: venue.id,
+      date,
+      title,
+      showtimes,
+      url: new URL(href, venue.website).href,
+      tags: /\bdata-attribute-on_film\b/i.test(attributes) ? ['on-film'] : [],
+    });
+  }
+  return groupedListings(records);
 }
 
 function decodeAttribute(value) {
@@ -292,6 +340,28 @@ function siffDetails(html) {
   };
 }
 
+function nwffDetails(html) {
+  const about = html.match(/<div class="text-editor" itemprop="about">([\s\S]*?)<\/div>/i)?.[1];
+  const aboutText = stripHtml(about);
+  const metadata = aboutText.match(/^\((.+?),\s*(\d{4}),\s*([^,]+),\s*(\d+)\s*min,\s*(?:in\s+)?([^)]+)\)/i);
+  const languageText = metadata?.[5]?.trim();
+  const subtitleMatch = languageText?.match(/(?:with|w\/)\s+(.+?)\s+(?:subtitles?|captions?)/i);
+  const language = languageText
+    ?.replace(/\s+(?:with|w\/)\s+.+?\s+(?:subtitles?|captions?).*$/i, '')
+    .trim();
+  const formatMatch = aboutText.match(/\b(16mm|35mm|70mm|DCP)\b/i)?.[1];
+  return {
+    synopsis: metaDescription(html),
+    director: metadata?.[1]?.trim(),
+    year: Number(metadata?.[2]) || undefined,
+    country: metadata?.[3]?.trim(),
+    runtime: Number(metadata?.[4]) || undefined,
+    language: language || languageText || undefined,
+    subtitles: subtitleMatch?.[1]?.trim(),
+    format: formatMatch ? (formatMatch.toLowerCase() === 'dcp' ? 'DCP' : formatMatch.toLowerCase()) : undefined,
+  };
+}
+
 async function enrichFilmDetails(listings) {
   const today = localDateTime(Date.now()).date;
   const cutoffDate = new Date(`${today}T12:00:00Z`);
@@ -300,7 +370,9 @@ async function enrichFilmDetails(listings) {
   const urls = [...new Set(listings
     .filter((listing) => listing.date >= today && listing.date <= cutoff)
     .map((listing) => listing.url)
-    .filter((url) => url.startsWith('https://thebeacon.film/calendar/movie/') || url.startsWith('https://www.siff.net/cinema/in-theaters/')))].slice(0, 40);
+    .filter((url) => url.startsWith('https://thebeacon.film/calendar/movie/')
+      || url.startsWith('https://nwfilmforum.org/films/')
+      || url.startsWith('https://www.siff.net/cinema/in-theaters/')))].slice(0, 60);
   const detailsByUrl = new Map();
   for (let index = 0; index < urls.length; index += 6) {
     const batch = urls.slice(index, index + 6);
@@ -308,7 +380,10 @@ async function enrichFilmDetails(listings) {
       const response = await fetch(url, { headers: { 'user-agent': 'PugetScreen/1.0 (+https://puget.ivison.id.au)' } });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const html = await response.text();
-      return [url, url.includes('thebeacon.film') ? beaconDetails(html) : siffDetails(html)];
+      const details = url.includes('thebeacon.film')
+        ? beaconDetails(html)
+        : url.includes('nwfilmforum.org') ? nwffDetails(html) : siffDetails(html);
+      return [url, details];
     }));
     for (const result of results) {
       if (result.status === 'fulfilled') detailsByUrl.set(...result.value);
@@ -328,9 +403,44 @@ async function fetchSiffWeek(source) {
   return groupedListings(pages.flat());
 }
 
+async function fetchNwffWeeks(venue) {
+  const today = localDateTime(Date.now()).date;
+  const firstSunday = new Date(`${today}T12:00:00Z`);
+  firstSunday.setUTCDate(firstSunday.getUTCDate() - firstSunday.getUTCDay());
+  const pages = await Promise.allSettled(Array.from({ length: 8 }, async (_, week) => {
+    const start = new Date(firstSunday);
+    start.setUTCDate(start.getUTCDate() + (week * 7));
+    const weekStart = start.toISOString().slice(0, 10);
+    const url = new URL(venue.source.url);
+    url.searchParams.set('start', weekStart);
+    let lastError;
+    for (let attempt = 0; attempt < 2; attempt += 1) {
+      try {
+        const response = await fetch(url, { headers: { 'user-agent': 'PugetScreen/1.0 (+https://puget.ivison.id.au)' } });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return parseNwffHtml(await response.text(), venue, weekStart);
+      } catch (error) {
+        lastError = error;
+      }
+    }
+    throw new Error(`NWFF week ${weekStart}: ${lastError?.message ?? 'fetch failed'}`);
+  }));
+  const successful = pages.filter((page) => page.status === 'fulfilled').map((page) => page.value);
+  const failed = pages.filter((page) => page.status === 'rejected');
+  if (!successful.length) throw failed[0]?.reason ?? new Error('No NWFF weeks returned');
+  if (failed.length) console.warn(`Skipped ${failed.length} NWFF calendar week${failed.length === 1 ? '' : 's'} after retrying`);
+  return groupedListings(successful.flat());
+}
+
 const synced = [];
 for (const venue of city.venues.filter((item) => item.enabled && item.source.type !== 'manual')) {
   try {
+    if (venue.source.type === 'html' && venue.source.adapter === 'nwff') {
+      const listings = await fetchNwffWeeks(venue);
+      synced.push(...listings);
+      console.log(`Synced ${venue.name} (${listings.length} listings)`);
+      continue;
+    }
     if (venue.source.type === 'html' && venue.source.adapter === 'siff') {
       synced.push(...await fetchSiffWeek(venue.source));
       console.log('Synced SIFF cinema locations');

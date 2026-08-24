@@ -6,7 +6,7 @@
   "locale": "en-US",
   "coordinates": { "latitude": 47.6062, "longitude": -122.3321 },
   "venues": [
-    { "id": "nwff", "name": "Northwest Film Forum", "symbol": "✦", "neighborhood": "Capitol Hill", "website": "https://nwfilmforum.org/", "calendarUrl": "https://nwfilmforum.org/calendar/", "source": { "type": "manual" }, "enabled": true },
+    { "id": "nwff", "name": "Northwest Film Forum", "symbol": "✦", "neighborhood": "Capitol Hill", "website": "https://nwfilmforum.org/", "calendarUrl": "https://nwfilmforum.org/calendar/", "source": { "type": "html", "url": "https://nwfilmforum.org/calendar/", "adapter": "nwff" }, "enabled": true },
     { "id": "beacon", "name": "The Beacon", "symbol": "◉", "neighborhood": "Columbia City", "website": "https://thebeacon.film/", "calendarUrl": "https://thebeacon.film/calendar", "source": { "type": "html", "url": "https://thebeacon.film/calendar", "adapter": "beacon" }, "enabled": true },
     { "id": "grand-illusion", "name": "Grand Illusion Cinema", "symbol": "◇", "neighborhood": "Pop-ups / NWFF", "website": "https://grandillusioncinema.org/", "calendarUrl": "https://grandillusioncinema.org/calendar/", "source": { "type": "manual" }, "enabled": true },
     { "id": "central-cinema", "name": "Central Cinema", "symbol": "♡", "neighborhood": "Central District", "website": "https://central-cinema.com/", "calendarUrl": "https://central-cinema.com/calendar/", "source": { "type": "manual" }, "enabled": true },

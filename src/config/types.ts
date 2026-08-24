@@ -2,7 +2,7 @@ export type VenueSource =
   | { type: 'manual' }
   | { type: 'ics'; url: string }
   | { type: 'json'; url: string; adapter: string }
-  | { type: 'html'; url: string; adapter: 'beacon' | 'siff' | 'veezi' };
+  | { type: 'html'; url: string; adapter: 'beacon' | 'nwff' | 'siff' | 'veezi' };
 
 export type VenueConfig = {
   id: string;
