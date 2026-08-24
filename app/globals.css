@@ -72,19 +72,19 @@ a { color: inherit; }
   position: relative;
   z-index: 2;
   color: #fff;
-  font-family: Arial Black, Arial, sans-serif;
+  font-family: var(--font-sans), Arial Black, Arial, sans-serif;
   font-size: 62px;
   font-style: normal;
-  font-weight: 900;
-  letter-spacing: -.13em;
-  transform: translateX(-3px) scaleX(.9);
+  font-weight: 800;
+  letter-spacing: -.1em;
+  transform: translateX(-2px) scaleX(.92);
 }
 .identity-name {
   display: block;
   font-size: 31px;
-  font-weight: 500;
-  letter-spacing: -.075em;
-  line-height: .84;
+  font-weight: 800;
+  letter-spacing: -.065em;
+  line-height: .82;
 }
 .identity-strap {
   margin: 18px 0 0;
@@ -109,12 +109,12 @@ a { color: inherit; }
   justify-content: space-between;
   padding: 0 1px 17px;
   font-size: 24px;
-  font-weight: 500;
-  letter-spacing: -.045em;
+  font-weight: 750;
+  letter-spacing: -.04em;
   line-height: 1;
   text-transform: uppercase;
 }
-.edition { color: var(--violet); font-size: 9px; font-weight: 500; letter-spacing: .12em; }
+.edition { color: var(--violet); font-size: 9px; font-weight: 650; letter-spacing: .12em; }
 .date-control {
   margin-top: 13px;
   display: grid;
@@ -167,8 +167,8 @@ a { color: inherit; }
   border-bottom: 1px solid var(--violet);
   color: var(--violet);
   font-size: 24px;
-  font-weight: 500;
-  letter-spacing: -.04em;
+  font-weight: 750;
+  letter-spacing: -.035em;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
@@ -179,8 +179,8 @@ a { color: inherit; }
   margin: 0;
   padding: 0 105px;
   font-size: clamp(27px, 2.55vw, 36px);
-  font-weight: 500;
-  letter-spacing: -.055em;
+  font-weight: 750;
+  letter-spacing: -.045em;
   line-height: .95;
   text-transform: uppercase;
 }
@@ -198,7 +198,7 @@ a { color: inherit; }
   right: 3px;
   color: var(--violet);
   font-size: 8px;
-  font-weight: 500;
+  font-weight: 650;
   letter-spacing: .07em;
   text-transform: uppercase;
   transform: translateY(-55%);
@@ -217,7 +217,7 @@ a { color: inherit; }
   margin: 0;
   color: var(--violet);
   font-size: 9px;
-  font-weight: 500;
+  font-weight: 650;
   letter-spacing: .075em;
   line-height: 1.18;
   text-transform: uppercase;
@@ -257,7 +257,7 @@ a { color: inherit; }
   background: #fff;
   font-family: var(--font-sans), Arial, sans-serif;
   font-size: 7px;
-  font-weight: 600;
+  font-weight: 750;
   letter-spacing: .04em;
   line-height: 1;
 }
@@ -286,8 +286,8 @@ a { color: inherit; }
   padding: 8px 4px 7px;
   border-bottom: 1px solid var(--line);
   font-size: 19px;
-  font-weight: 500;
-  letter-spacing: -.04em;
+  font-weight: 750;
+  letter-spacing: -.035em;
   line-height: 1;
   text-align: center;
   text-decoration: none;
@@ -302,7 +302,7 @@ a { color: inherit; }
   color: var(--violet);
   transform: rotate(-1deg);
 }
-.event-copy { position: absolute; top: 15px; left: 14px; font-size: 17px; font-style: italic; font-weight: 500; letter-spacing: -.035em; line-height: .93; }
+.event-copy { position: absolute; top: 15px; left: 14px; font-size: 17px; font-style: italic; font-weight: 750; letter-spacing: -.025em; line-height: .93; }
 .camera { position: absolute; right: 28px; bottom: 50px; font-size: 70px; transform: rotate(6deg); }
 .tripod { position: absolute; right: 19px; bottom: 15px; font-family: var(--font-display), Georgia, serif; font-size: 49px; line-height: 1; }
 .events-card p { margin: 0 2px 17px; font-family: var(--font-display), Georgia, serif; font-size: 14px; letter-spacing: -.012em; line-height: 1.15; }
@@ -315,7 +315,7 @@ a { color: inherit; }
   padding: 8px 2px 7px;
   border-bottom: 1px solid var(--line);
   font-size: 9px;
-  font-weight: 500;
+  font-weight: 650;
   letter-spacing: .035em;
   line-height: 1.18;
   text-decoration: none;
@@ -361,8 +361,8 @@ a { color: inherit; }
     border-bottom: 1px solid var(--line);
     text-transform: uppercase;
   }
-  .mobile-head strong { font-size: 23px; font-weight: 500; letter-spacing: -.065em; }
-  .mobile-head span { color: var(--violet); font-size: 9px; font-weight: 500; letter-spacing: .1em; }
+  .mobile-head strong { font-size: 23px; font-weight: 800; letter-spacing: -.055em; }
+  .mobile-head span { color: var(--violet); font-size: 9px; font-weight: 650; letter-spacing: .1em; }
   .listings-column { padding: 19px 12px 60px; }
   .listings-topline { padding-bottom: 19px; font-size: 19px; }
   .date-control { gap: 5px; }

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Instrument_Serif, Space_Grotesk } from 'next/font/google';
+import { Bricolage_Grotesque, Instrument_Serif } from 'next/font/google';
 import { siteConfig } from '@/src/config/site';
 import './globals.css';
 
@@ -9,9 +9,11 @@ const display = Instrument_Serif({
   weight: '400',
 });
 
-const sans = Space_Grotesk({
+const sans = Bricolage_Grotesque({
   variable: '--font-sans',
   subsets: ['latin'],
+  weight: 'variable',
+  axes: ['opsz', 'wdth'],
 });
 
 export const metadata: Metadata = {

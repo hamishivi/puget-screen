@@ -70,7 +70,7 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
             <span className="monogram" aria-hidden="true"><i>PS</i></span>
             <span className="identity-name">PUGET<br />SCREEN</span>
           </div>
-          <p className="identity-strap">{config.strapline}<br />Est. {config.foundedYear}</p>
+          <p className="identity-strap">{config.strapline}</p>
           <p className="identity-copy">{config.description}</p>
         </aside>
 
