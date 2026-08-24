@@ -40,6 +40,48 @@ function FormatMark({ format }: { format: NonNullable<Listing['format']> }) {
   );
 }
 
+function languageCode(language: string) {
+  const codes: Record<string, string> = {
+    Arabic: 'AR',
+    Cantonese: 'ZH',
+    English: 'EN',
+    French: 'FR',
+    Japanese: 'JA',
+    Korean: 'KO',
+    Mandarin: 'ZH',
+    Spanish: 'ES',
+    Various: 'VAR',
+  };
+
+  return language
+    .split(/\s*(?:,|&|\/)\s*/)
+    .map((part) => codes[part] ?? part.slice(0, 3).toUpperCase())
+    .join('/');
+}
+
+function LanguageMarks({ language, subtitles }: Pick<Listing, 'language' | 'subtitles'>) {
+  if (!language && subtitles === undefined) return null;
+
+  return (
+    <span className="language-marks">
+      {language && (
+        <span className="language-mark" aria-label={`Language: ${language}`} title={`Language: ${language}`}>
+          {languageCode(language)}
+        </span>
+      )}
+      {subtitles !== undefined && (
+        <span
+          className={`subtitle-mark${subtitles === false ? ' no-subs' : ''}`}
+          aria-label={subtitles === false ? 'No subtitles' : `${subtitles} subtitles`}
+          title={subtitles === false ? 'No subtitles' : `${subtitles} subtitles`}
+        >
+          {subtitles === false ? 'NO SUB' : `SUB ${languageCode(subtitles)}`}
+        </span>
+      )}
+    </span>
+  );
+}
+
 export function ListingsApp({ config, listings }: { config: SiteConfig; listings: Listing[] }) {
   const [date, setDate] = useState(() => todayIn(config.city.timezone));
   const [onFilmOnly, setOnFilmOnly] = useState(false);
@@ -120,7 +162,10 @@ export function ListingsApp({ config, listings }: { config: SiteConfig; listings
                       <h3><a href={show.url} target="_blank" rel="noreferrer">{show.title}</a></h3>
                       <div className="film-details">
                         <span>{[show.director, show.year, show.runtime && `${show.runtime}m`].filter(Boolean).join(', ')}</span>
-                        {show.format && <FormatMark format={show.format} />}
+                        <span className="metadata-marks">
+                          {show.format && <FormatMark format={show.format} />}
+                          <LanguageMarks language={show.language} subtitles={show.subtitles} />
+                        </span>
                       </div>
                       {upcomingOnly && (
                         <time className="screening-date" dateTime={show.date}>

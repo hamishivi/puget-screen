@@ -23,7 +23,7 @@ Venue-specific websites can later get their own small adapter in `scripts/sync-l
 
 ## Listings format
 
-Listings have a stable ID, venue ID, local `YYYY-MM-DD` date, title, ticket URL, showtimes, and optional director, year, runtime, format, series, and tags. Supported interface filters currently use `on-film`, `experimental`, and `local` tags.
+Listings have a stable ID, venue ID, local `YYYY-MM-DD` date, title, ticket URL, showtimes, and optional director, year, runtime, format, language, subtitles, series, and tags. Set `subtitles` to a language name or `false` for an explicit “no subtitles” badge. Supported interface filters currently use `on-film`, `experimental`, and `local` tags.
 
 ## Development
 

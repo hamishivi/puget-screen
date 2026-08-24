@@ -50,6 +50,8 @@ export type Listing = {
   runtime?: number;
   country?: string;
   format?: '16mm' | '35mm' | '70mm' | 'DCP' | 'Digital' | 'Other';
+  language?: string;
+  subtitles?: string | false;
   showtimes: string[];
   url: string;
   tags?: string[];
